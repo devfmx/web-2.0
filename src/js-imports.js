@@ -1,7 +1,6 @@
 import 'popper.js/dist/popper.min';
 import 'bootstrap/dist/js/bootstrap.min';
-import './assets/lib/wow/dist/wow';
-import 'jquery.md.ytplayer/dist/jquery.mb.YTPlayer';
+import 'jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.min';
 import './assets/lib/isotope/dist/isotope.pkgd';
 import './assets/lib/imagesloaded/imagesloaded.pkgd';
 import 'flexslider/jquery.flexslider-min';
@@ -9,5 +8,3 @@ import 'owl.carousel/dist/owl.carousel.min';
 import 'smoothscroll/smoothscroll.min';
 import 'magnific-popup/dist/jquery.magnific-popup.min';
 import 'jquery.simple-text-rotator/jquery.simple-text-rotator.min';
-import './assets/js/plugins';
-import './assets/js/main';
