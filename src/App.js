@@ -12,15 +12,14 @@ import {
 class App extends Component {
   render() {
     return (
-        <main>
+     
           <Router>
-            <div>
+            <main>
               <Route exact path="/" component={Home}/>
               <Route path="/nosotros" component={People}/>
-            </div>
+            </main>
           </Router>
-          
-        </main>
+  
     );
   }
 }
