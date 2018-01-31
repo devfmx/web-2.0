@@ -1,0 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'animate.css/animate.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+import 'et-line/style.css';
+import 'flexslider/flexslider.css';
+import 'owl.carousel/dist/assets/owl.carousel.min.css';
+import 'owl.carousel/dist/assets/owl.theme.default.min.css';
+import 'magnific-popup/dist/magnific-popup.css';
+import 'jquery.simple-text-rotator/simpletextrotator.css';
