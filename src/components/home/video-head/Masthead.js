@@ -6,12 +6,6 @@ import Content from './content/HeaderContent';
 
 class Masthead  extends  Component {
 
-    constructor(){
-        super()
-    }
-
-
-
 
     render () {
        

@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Masthead from './video-head/Masthead';
 import Navbar from '../navbar/Navbar';
+import Cities from './cities/Cities';
+
 
 class Home  extends  Component {
 
@@ -13,6 +15,7 @@ class Home  extends  Component {
                 <div>News</div>
                 <Navbar/>
                 <Masthead/>
+                <Cities/>
             </div>
         );
 

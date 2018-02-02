@@ -1,0 +1,19 @@
+
+.cardStyle {
+    display: inline-block;
+    margin: 0 20px;
+    width: 15rem;
+}
+
+.card-photo {
+    height: 7em;
+}
+
+@media (max-width: 500px) {
+
+    .cardStyle {
+        width: 18rem;
+        margin: 12px 0;
+    }
+
+}
