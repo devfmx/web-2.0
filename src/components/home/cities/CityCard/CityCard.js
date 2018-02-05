@@ -12,6 +12,7 @@ class CityCard extends  Component {
 
     onSelect(e){
         alert("Selecionaste:"+this.props.city)
+        this.props.changeCity(this.props.city,this.props.cityId)
     }
 
     render(){

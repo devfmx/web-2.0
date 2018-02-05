@@ -1,0 +1,25 @@
+.contact-bar{
+    background-color: #290C2D;
+    color: white;
+    padding-top: 5px;
+}
+
+.contact-text{
+    color:#A69DA7;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.social-icons{
+    right: 0;
+    font-size: 15px;
+    color: #fff;
+    padding: 4px;
+    border-radius: 50%;
+    background-color: #7B2781;
+    text-decoration: none;
+    margin: 0px 5px;
+
+
+}
+

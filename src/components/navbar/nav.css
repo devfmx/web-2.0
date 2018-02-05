@@ -1,3 +1,25 @@
-.bg-black {
-    background-color: #000000 !important;
+.bg-devf {
+    background-color: #3B183F !important;
+
+}
+
+.link-nav{
+    color:#ffffff !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0px 17px;
+}
+
+.btn-buy{
+    background-color: #E100A6;
+    font-size: 12px;
+    border: solid #E100A6;
+    text-transform: uppercase;
+    color:#ffffff !important;
+    padding: 6px 17px;
+    border-radius: 12px;
+}
+
+.btn-buy:hover{
+    background-color: #3B183F;
 }

@@ -8,7 +8,7 @@ class Navbar  extends  Component {
 
     render () {
         return(
-            <nav className="navbar navbar-expand-lg navbar-dark bg-black ">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-devf ">
                 <a className="navbar-brand" href="#">
                     <img src={logo}  className="d-inline-block align-top" alt=""/>                               
                 </a>
@@ -21,10 +21,23 @@ class Navbar  extends  Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto ">
                             <li className="nav-item">
-                               <Link to="/nosotros" className="nav-link">Nosotros</Link>
+                               <Link to="/nosotros" className="nav-link link-nav">Somos</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link " href="#">Disabled</a>
+                                <a className="nav-link link-nav" href="#">ROI</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link link-nav" href="#">Metodología</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link link-nav" href="#">FAQ</a>
+
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link link-nav" href="#">Corporativos</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link btn btn-buy" href="#">Inscríbite</a>
                             </li>
                         </ul>
     

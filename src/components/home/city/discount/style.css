@@ -1,0 +1,7 @@
+.discount-bar {
+    display: block;
+    height: 2.5em;
+    background-color: blueviolet ;
+    color: #fff;
+    padding: 10px 65px;
+}
