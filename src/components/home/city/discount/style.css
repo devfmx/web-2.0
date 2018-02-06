@@ -1,7 +1,14 @@
 .discount-bar {
     display: block;
-    height: 2.5em;
-    background-color: blueviolet ;
+    height: 4em;
+    background: linear-gradient(to right, #3B183F , #E100A6);
     color: #fff;
-    padding: 10px 65px;
+    padding: 27px 65px;
+    font-size: 22px;
+}
+.discount-card {
+    background-color: #ffffffff;
+    padding: 3px 11px;
+    color: #E100A6;
+    font-weight: 900;
 }

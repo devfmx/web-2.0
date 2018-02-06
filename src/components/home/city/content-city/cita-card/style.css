@@ -1,0 +1,48 @@
+.cinta-imagen {
+    width:28%;
+    margin:0 auto;
+    border: solid #f2f2f2 2px;
+}
+
+.cinta-card {
+    padding-top: 12px;
+}
+
+.cinta-title {
+    margin-top: 20px;
+    margin-bottom: 0.40rem;
+    font-size: 29px;
+    font-weight: 700;
+
+}
+
+.cinta-subtitle{
+    font-size: 13px;
+    color: #ACACAC;
+}
+
+.cinta-text {
+    color: #7b7b7b;
+    font-size: 15px;
+}
+
+.offset-cinta{
+    margin-left: 20.666667%;
+}
+
+.btn-cinta{
+    background-color: transparent;
+    border: solid #E100A6 2px;
+    color: #E100A6;
+    margin-bottom: 15px;
+}
+
+.btn-cinta:hover {
+    background-color: #E100A6;
+    color:#FFFFFF;
+}
+.cinta-detalle{
+    color: #E100A6;
+    font-size: 12px;
+    margin-right: 12px;
+}

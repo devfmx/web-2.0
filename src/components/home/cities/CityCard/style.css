@@ -1,13 +1,98 @@
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    60% {
+        -moz-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    60% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    60% {
+        -moz-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+
 
 .cardStyle {
     display: inline-block;
     margin: 0 20px;
     width: 15rem;
+    opacity: 0.6;
 }
 
-.card-photo {
-    height: 7em;
+.cardStyle:hover{
+    opacity: 1;
+    cursor:pointer;
 }
+
+.card-body {
+    padding: 0.25px;
+}
+.card-text{
+    margin-bottom: 0px;
+}
+
+
+.card-photo {
+    height: 3em;
+}
+
+.card-img-overlay{
+    color:#ffffff !important;
+    background-color: rgba(119, 52, 111, 0.8);
+    font-size: 11px;
+    bottom: 49px;
+}
+.card-img-overlay h4    {
+    font-size: 1.1rem !important;
+}
+
+.bounce-devf {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+.arrow-devf{
+    color:#7B2781;
+    font-size: 22px;
+}
+
 
 @media (max-width: 500px) {
 

@@ -36,8 +36,8 @@ class Navbar  extends  Component {
                             <li className="nav-item">
                                 <a className="nav-link link-nav" href="#">Corporativos</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link btn btn-buy" href="#">Inscríbite</a>
+                            <li className="nav-item" style={{marginTop:"5px"}}>
+                                <a className="nav-link btn btn-buy" href="#" >Inscríbite</a>
                             </li>
                         </ul>
     

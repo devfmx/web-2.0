@@ -4,12 +4,15 @@ import Navbar from '../navbar/Navbar';
 import Cities from './cities/Cities';
 import City from './city/City'
 import Contact from '../contactbar/ContactBar'
+import jQuery from 'jquery';
+window.jQuery = jQuery;
+
 
 class Home  extends  Component {
 
     constructor(){
         super()
-
+        jQuery.noConflict(true)
         this.updateCity = this.updateCity.bind(this)
         this.state = {city:"none",cityId:0}
 
@@ -27,6 +30,7 @@ class Home  extends  Component {
             return <div></div>
         }
         else{
+
             return <City city={this.state.city} cityId={this.state.cityId}/>
         }
     }
@@ -41,6 +45,7 @@ class Home  extends  Component {
                 <Masthead/>
                 <Cities changeCity={this.updateCity}/>
                 {this.updateComponentCity()}
+
 
             </div>
         );

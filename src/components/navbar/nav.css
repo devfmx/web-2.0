@@ -16,8 +16,8 @@
     border: solid #E100A6;
     text-transform: uppercase;
     color:#ffffff !important;
-    padding: 6px 17px;
-    border-radius: 12px;
+    padding: 1px 17px;
+    border-radius: 2px;
 }
 
 .btn-buy:hover{
