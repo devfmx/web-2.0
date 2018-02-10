@@ -1,0 +1,24 @@
+.card-direction{
+    margin-top: 3rem;
+}
+.card-direction a p span {
+    font-size: 14px;
+}
+
+
+.direction-span {
+    font-weight: 900;
+}
+
+.direction-map{
+    color:#8D3993;
+}
+
+.direction-hours {
+    font-weight: 900;
+}
+
+.logo-venue {
+    width: 10%;
+    margin: 0 auto;
+}

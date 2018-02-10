@@ -1,0 +1,15 @@
+.div-carousel{
+
+    margin-top: 4rem;
+
+}
+
+.overlay-carousel{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #E100A6;
+    opacity: 0.5;
+}

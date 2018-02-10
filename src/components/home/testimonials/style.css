@@ -1,0 +1,35 @@
+.testimonials-title{
+    color: #8A3490;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.div-testimonials {
+    margin-top: 3rem;
+}
+
+.name-testimonial{
+    color:#000000;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.job-testimonial{
+    color: #A69DA7;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.btn-testimonial{
+    color: #7B2781;
+    background-color: transparent;
+    border: solid #7B2781 2px;
+    padding: 0px 25px;
+    text-transform: uppercase;
+}
+
+.btn-testimonial:hover{
+    background-color: #7B2781;
+    color:#FFFFFF;
+}

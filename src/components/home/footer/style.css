@@ -1,0 +1,62 @@
+.row-footer{
+    padding-top: 25px;
+    background-color: #3B183F;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.row-mision p{
+    font-size: 10px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.input-news{
+    background-color: transparent;
+    border: solid #E100A6 1px;
+    width:70%;
+    border-radius: 0px;
+    font-size: 13px;
+    padding: 1.5px 12px;
+
+}
+
+.input-news:focus{
+    background-color: transparent;
+    border: solid #E100A6 1px;
+    color:#FFFFFF;
+}
+.btn-news {
+    background-color: #E100A6;
+    color: #FFFFFF;
+    border: solid #E100A6 1px;
+    border-radius: 0px;
+    font-size: 12px;
+    padding: 2px 14px;
+    text-transform: uppercase;
+}
+
+
+.btn-news:hover{
+    background-color: transparent;
+}
+
+.div-rewards p {
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.div-rewards img{
+    width: 30%;
+}
+
+.news-title {
+    font-size: 0.8rem;
+}
+
+.div-corporativo p {
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 10px;
+}

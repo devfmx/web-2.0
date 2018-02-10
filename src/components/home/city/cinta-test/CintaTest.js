@@ -9,11 +9,11 @@ class CintaTest extends Component {
     render() {
 
         return(
-            <div className="row">
-                <div className="col-md-12 col-lg 12">
+            <div className="row" style={{marginTop:"4rem"}}>
+                <div className="col-md-12 col-lg-12 text-center test-block">
                     <p>
                         <i className="fa fa-question-circle"></i> ¿Cuál es el curso indicado para mí?
-                        <a href="">Saber más</a>
+                        <a href="" className="btn btn-test">Saber más</a>
                     </p>
                 </div>
             </div>

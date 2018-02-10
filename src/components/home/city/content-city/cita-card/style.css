@@ -35,6 +35,7 @@
     border: solid #E100A6 2px;
     color: #E100A6;
     margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .btn-cinta:hover {

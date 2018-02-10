@@ -23,3 +23,14 @@
 .btn-buy:hover{
     background-color: #3B183F;
 }
+
+.div-rights{
+    color: #FFFFFF;
+    font-size: 8px;
+    background-color: #290D2C;
+    padding: 10px 30px;
+}
+
+.div-rights a {
+    color: #FFFFFF;
+}

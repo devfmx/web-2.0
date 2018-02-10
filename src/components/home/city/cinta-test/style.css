@@ -1,0 +1,18 @@
+.test-block{
+    background-color: #441949;
+    color:#FFFFFF;
+    font-size: 25px;
+    padding: 17px 0px;
+}
+
+.btn-test{
+    margin-left: 10px;
+    background-color: transparent;
+    border: solid #FFFFFF 2px;
+    color: #FFFFFF;
+}
+
+.btn-test:hover {
+    background-color: #FFFFFF;
+    color: #441949;
+}

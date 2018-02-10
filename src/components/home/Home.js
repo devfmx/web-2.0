@@ -2,8 +2,14 @@ import React, {Component} from 'react';
 import Masthead from './video-head/Masthead';
 import Navbar from '../navbar/Navbar';
 import Cities from './cities/Cities';
-import City from './city/City'
-import Contact from '../contactbar/ContactBar'
+import City from './city/City';
+import Contact from '../contactbar/ContactBar';
+import Carousel from './carousel/Carousel';
+import Testimonials from './testimonials/Testimonials';
+import Companies from './companies/Companies';
+import Footer from './footer/Footer';
+
+
 import jQuery from 'jquery';
 window.jQuery = jQuery;
 
@@ -42,9 +48,15 @@ class Home  extends  Component {
             <div>
                 <Contact/>
                 <Navbar/>
-                <Masthead/>
-                <Cities changeCity={this.updateCity}/>
-                {this.updateComponentCity()}
+                <div className="container-fluid" style={{paddingLeft:"0px",paddingRight:"0px"}}>
+                    <Masthead/>
+                    <Cities changeCity={this.updateCity}/>
+                    {this.updateComponentCity()}
+                    <Carousel/>
+                    <Testimonials/>
+                    <Companies/>
+                    <Footer/>
+                </div>
 
 
             </div>

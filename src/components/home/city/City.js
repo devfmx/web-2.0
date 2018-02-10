@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './style.css';
 import Discount from './discount/Discount'
 import Content from './content-city/ContentCity'
+import Test from './cinta-test/CintaTest';
+import Direction from './direction/Direction';
 
 class City extends  Component {
 
@@ -17,6 +19,8 @@ class City extends  Component {
                 <div className="container-fluid">
                     <Discount/>
                     <Content/>
+                    <Test/>
+                    <Direction/>
                 </div>
             </section>
         );
