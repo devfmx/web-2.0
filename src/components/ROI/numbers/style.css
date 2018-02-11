@@ -1,0 +1,38 @@
+.numbers-div{
+
+color: #FFFFFF;
+
+}
+
+.numbers-div p{
+    color:#FFFFFF;
+    font-size: 12px;
+}
+
+.number-span {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.loop-span {
+    font-size: 1.5rem;
+
+}
+
+.div-consider h3 {
+    color: #7B2781;
+    font-size: 21px;
+    font-weight: 700;
+
+}
+
+.div-consider p {
+    color: #565656;
+    font-size: 18px;
+}
+
+.div-consider h4 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 29px;
+}

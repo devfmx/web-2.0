@@ -6,6 +6,11 @@
 
 }
 
+.other-head h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .other-head p {
     margin-top: 2.5rem;
     font-size: 21px;

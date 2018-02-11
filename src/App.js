@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Home from './components/home/Home';
 import People from './components/people/People';
+import ROI from './components/ROI/ROI';
 import {
   BrowserRouter as Router,
   Route,
@@ -14,8 +15,9 @@ class App extends Component {
      
           <Router>
             <main>
-              <Route exact path="/" component={Home}/>
-              <Route path="/nosotros" component={People}/>
+                <Route exact path="/" component={Home}/>
+                <Route path="/nosotros" component={People}/>
+                <Route path="/roi" component={ROI}/>
             </main>
           </Router>
   
