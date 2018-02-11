@@ -27,7 +27,7 @@ class Navbar  extends  Component {
                                 <Link to="/roi" className="nav-link link-nav" >ROI</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link link-nav" href="#">Metodología</a>
+                                <Link to="/metodologia" className="nav-link link-nav" href="#">Metodología</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link link-nav" href="#">FAQ</a>
