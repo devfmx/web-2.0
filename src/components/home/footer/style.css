@@ -32,7 +32,7 @@
     border: solid #E100A6 1px;
     border-radius: 0px;
     font-size: 12px;
-    padding: 2px 14px;
+    padding: 2.5px 14px;
     text-transform: uppercase;
 }
 
@@ -59,4 +59,16 @@
     font-size: 10px;
     font-weight: 300;
     margin-top: 10px;
+}
+
+.div-rights{
+    color: #FFFFFF;
+    font-size: 8px;
+    background-color: #290D2C;
+    padding: 10px 30px;
+
+}
+
+.div-rights p {
+    margin-bottom: 0px;
 }

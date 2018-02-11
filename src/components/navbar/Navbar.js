@@ -8,7 +8,7 @@ class Navbar  extends  Component {
 
     render () {
         return(
-            <nav className="navbar navbar-expand-lg navbar-dark bg-devf ">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-devf sticky-top ">
                 <a className="navbar-brand" href="#">
                     <img src={logo}  className="d-inline-block align-top" alt=""/>                               
                 </a>

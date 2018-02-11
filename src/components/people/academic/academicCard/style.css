@@ -1,0 +1,29 @@
+.academic-card{
+padding: 0px 20px;
+
+}
+
+
+.academic-card h5 {
+    color: #7B2781;
+    font-weight: 700;
+}
+
+.academic-card img{
+    margin: 0 auto;
+    position: relative;
+    top: -43px;
+    width: 40%;
+}
+
+.academic-card p {
+    color: #7b7b7b;
+    font-size: 13px;
+}
+
+@media(max-width:400px ){
+    .academic-card{
+        margin-top: 3rem;
+    }
+
+}

@@ -1,0 +1,27 @@
+.done-sec{
+
+    margin-top: 5rem;
+}
+
+
+.done-sec h3 {
+    color: #7B2781;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.done-sec p {
+
+    color: #7b7b7b;
+    font-size: 21px;
+}
+
+.done-mojo{
+    border-top: solid #7b7b7b 1px;
+
+}
+
+.done-mojo p {
+    color: #dbdbdb;
+
+}

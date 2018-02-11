@@ -1,0 +1,22 @@
+.done-card{
+    padding: 25px 20px;
+    width: 70%;
+}
+
+
+.done-card h5 {
+    color: #7B2781;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.done-card img{
+    margin: 0 auto;
+    width: 40%;
+}
+
+.done-card p {
+    color: #7b7b7b;
+    font-size: 13px;
+}
