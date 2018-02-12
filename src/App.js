@@ -4,6 +4,11 @@ import Home from './components/home/Home';
 import People from './components/people/People';
 import ROI from './components/ROI/ROI';
 import Metodology from './components/methodology/Methodology';
+import Community from './components/community/Community';
+import FAQ from './components/FAQ/FAQ';
+import Corporative from './components/corporative/Corporative';
+
+
 
 import {
   BrowserRouter as Router,
@@ -21,6 +26,9 @@ class App extends Component {
                 <Route path="/nosotros" component={People}/>
                 <Route path="/roi" component={ROI}/>
                 <Route path="/metodologia" component={Metodology}/>
+                <Route path="/comunidad" component={Community}/>
+                <Route path="/faq" component={FAQ}/>
+                <Route path="/corporativos" component={Corporative}/>
             </main>
           </Router>
   

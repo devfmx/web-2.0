@@ -1,0 +1,36 @@
+.main-goals{
+    background-color: #F9F9F9;
+
+}
+
+.second-goals {
+    background-color: #FFFFFF;
+    color:#7b7b7b;
+}
+
+.custom-ul{
+    list-style-type: none;
+    background-color: #FAFAFA;
+}
+
+.custom-ul li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: solid #F0F0F0 1px;
+}
+
+.custom-ul li:before {
+    list-style-type: none;
+    font-family: 'FontAwesome';
+    content: "\f0a9";
+    margin:0 5px 0 -15px;
+    color: #8A3490;
+}
+
+.info-div{
+    color:#7b7b7b;
+}
+
+.info-div a {
+    color: #C93093;
+}

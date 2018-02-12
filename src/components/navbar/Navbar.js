@@ -30,11 +30,11 @@ class Navbar  extends  Component {
                                 <Link to="/metodologia" className="nav-link link-nav" href="#">Metodología</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link link-nav" href="#">FAQ</a>
+                                <Link to="/faq" className="nav-link link-nav" href="#">FAQ</Link>
 
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link link-nav" href="#">Corporativos</a>
+                                <Link to="/corporativos" className="nav-link link-nav" href="#">Corporativos</Link>
                             </li>
                             <li className="nav-item" style={{marginTop:"5px"}}>
                                 <a className="nav-link btn btn-buy" href="#" >Inscríbite</a>

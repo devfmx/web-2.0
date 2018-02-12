@@ -1,0 +1,25 @@
+.card-name {
+    color: #8A3490;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.card-job  {
+    color:#000000;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.card-cita {
+    color:#222222;
+    font-size: 16px
+}
+
+.cc-card {
+    border:none;
+}
+
+.cc-quotes {
+    color: #8A3490;
+    font-size: 30px;
+}
