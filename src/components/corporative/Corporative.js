@@ -3,7 +3,7 @@ import Navbar from '../navbar/Navbar';
 import Contact from '../contactbar/ContactBar';
 import Header from '../othersheader/OtherHead';
 import Goals from './goals/Goals';
-
+import Quotes from './quotes/Quotes';
 
 class Corporative extends Component {
     render() {
@@ -15,6 +15,7 @@ class Corporative extends Component {
                 "necesita más talento que nunca en las áreas de TI y programación."} />
                 <div className="container-fluid">
                     <Goals/>
+                    <Quotes/>
                 </div>
 
             </div>
