@@ -8,6 +8,8 @@ import Community from './components/community/Community';
 import FAQ from './components/FAQ/FAQ';
 import Corporative from './components/corporative/Corporative';
 import Cinta from './components/cinta/Cinta';
+import { ScrollContext } from 'react-router-scroll-4';
+
 
 
 import {
@@ -16,11 +18,17 @@ import {
 
 } from 'react-router-dom'
 
+
+
+
 class App extends Component {
   render() {
+
     return (
+
      
           <Router>
+            <ScrollContext>
             <main>
                 <Route exact path="/" component={Home}/>
                 <Route path="/nosotros" component={People}/>
@@ -31,6 +39,7 @@ class App extends Component {
                 <Route path="/corporativos" component={Corporative}/>
                 <Route path="/cinta" component={Cinta}/>
             </main>
+            </ScrollContext>
           </Router>
   
     );

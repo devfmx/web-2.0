@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import cinta from './negra.png';
 import './style.css';
+import { Link } from 'react-router-dom'
 
 
 class CintaCard extends Component{
@@ -28,7 +29,7 @@ class CintaCard extends Component{
                 <div className="card cinta-card">
                     <div className="row">
                         <div className="col-md-12 col-lg-12 ">
-                            <a href="#" className="cinta-detalle float-right">Ver detalle</a>
+                            <Link to="/cinta" className="cinta-detalle float-right">Ver detalle</Link>
                         </div>
                     </div>
 

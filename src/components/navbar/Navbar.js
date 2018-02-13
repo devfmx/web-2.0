@@ -9,9 +9,9 @@ class Navbar  extends  Component {
     render () {
         return(
             <nav className="navbar navbar-expand-lg navbar-dark bg-devf sticky-top ">
-                <a className="navbar-brand" href="#">
+                <Link className="navbar-brand" to="/">
                     <img src={logo}  className="d-inline-block align-top" alt=""/>                               
-                </a>
+                </Link>
 
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

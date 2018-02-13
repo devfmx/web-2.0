@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import "./style.css";
 import CardTestimonial from "./card-testimonial/CardTestimonial";
+import { Link } from 'react-router-dom'
 
 
 
@@ -38,7 +39,7 @@ class Testimonials extends Component{
                 
                 <div className="row" style={{marginTop:"2rem"}}>
                     <div className="col-md-12 col-lg-12 text-center">
-                        <a href="" className="btn btn-testimonial">Más Testimonios e historias</a>
+                        <Link to="/comunidad" className="btn btn-testimonial">Más Testimonios e historias</Link>
                     </div>
                 </div>
 
