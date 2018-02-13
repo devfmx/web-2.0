@@ -1,15 +1,46 @@
 import React, { Component } from 'react';
 import CityCard from './CityCard/CityCard';
-import './styles.css'
+import './styles.css';
+import Firebase from '../../Firebase';
+
 class Cities extends  Component {
 
     constructor(props){
-        super(props)
+        super(props);
+        this.state = {cities:[],prueba:"Prueba"}
+    }
 
+    componentDidMount(){
+        const cities = Firebase.database().ref().child('cities');
+        cities.on('value',content => {
+            console.log(content.val())
+            this.setState({
+                cities: content.val(),
+                prueba:"Otra prueba"
+            });
+        });
     }
 
 
     render(){
+            if(!this.state.cities){
+                console.log(this.state.prueba)
+                return null;
+            }
+
+            const cities = Object.keys(this.state.cities).map((key,i) =>
+
+                <CityCard city={this.state.cities[key].name}
+                          changeCity={this.props.changeCity}
+                          cityId={i}
+                          imagenUrl={this.state.cities[key].img}
+                />
+            );
+
+            console.log(cities)
+
+
+
          return(
              <section className="bg-light-devf text-center">
                  <div className="container-fluid container-cities">
@@ -22,21 +53,8 @@ class Cities extends  Component {
                      </div>
                      <div className="row">
                          <div className="col-md-12 col-lg-12">
-                             <CityCard city={"CDMX Roma/condesa"}
-                                       changeCity={this.props.changeCity}
-                                       cityId={1}
-                                       imagenUrl={"http://cdn1.buuteeq.com/upload/2051945/la-condesa-mexico-city.jpg.1340x450_default.jpg"}
-                             />
-                             <CityCard city={"CDMX Santa Fe"}
-                                       changeCity={this.props.changeCity}
-                                       cityId={2}
-                             imagenUrl={"http://blog.nationalgeographic.org/wp-content/uploads/2015/05/1X5A0837.jpg"}
-                             />
-                             <CityCard city={"Guadalajara"}
-                                       changeCity={this.props.changeCity}
-                                       cityId={3}
-                                       imagenUrl={"http://www.demendoza.com.mx/site/assets/slides/index/slide_2.jpg"}
-                             />
+
+                             {cities}
                          </div>
 
                      </div>

@@ -6,6 +6,7 @@
     "animate.css": "^3.5.2",
     "bootstrap": "^4.0.0",
     "et-line": "^1.0.1",
+    "firebase": "^4.9.1",
     "flexslider": "^2.6.4",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",

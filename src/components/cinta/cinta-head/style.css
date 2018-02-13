@@ -1,0 +1,15 @@
+.cinta-head {
+    padding-top: 1rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+
+.cinta-title {
+    font-size: 45px !important;
+    text-transform: capitalize!important;
+}
+
+.text-cinta {
+    font-size: 24px !important;
+    font-weight: 700;
+}

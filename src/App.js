@@ -7,7 +7,7 @@ import Metodology from './components/methodology/Methodology';
 import Community from './components/community/Community';
 import FAQ from './components/FAQ/FAQ';
 import Corporative from './components/corporative/Corporative';
-
+import Cinta from './components/cinta/Cinta';
 
 
 import {
@@ -29,6 +29,7 @@ class App extends Component {
                 <Route path="/comunidad" component={Community}/>
                 <Route path="/faq" component={FAQ}/>
                 <Route path="/corporativos" component={Corporative}/>
+                <Route path="/cinta" component={Cinta}/>
             </main>
           </Router>
   

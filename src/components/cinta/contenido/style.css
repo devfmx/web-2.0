@@ -1,0 +1,68 @@
+.cinta-image{
+    position: relative;
+    top:-35px;
+    margin: 0 auto;
+    width: 11%;
+    background-color: #ffffff;
+    border: solid #F6F6F6 2px;
+}
+.objective{
+    color:#7B2781;
+    font-size:26px;
+    font-weight: 700;
+}
+
+.objective-text {
+    color: #222222;
+    font-size: 16px;
+}
+.cinta-list{
+    list-style-type: none;
+}
+
+.cinta-list li {
+    margin-bottom: 25px;
+}
+
+.cinta-list span{
+    display: block;
+    font-size: 15px;
+    color: #7B7B7B;
+}
+
+.cinta-list li:before{
+    list-style-type: none;
+    font-family: 'FontAwesome';
+    content: "\f054";
+    margin:0 5px 0 -15px;
+    color: #8A3490;
+
+}
+
+.info-text{
+    color: #7B7B7B;
+    font-size: 15px;
+
+}
+
+.cinta-time{
+    color: #8A3490;
+    font-size: 15px;
+}
+
+.text-pago{
+    color: #222222;
+    font-size: 17px;
+}
+
+.btn-buy-cinta{
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #E100A6;
+    border: solid #E100A6 1px;
+}
+
+.btn-buy-cinta:hover{
+    background-color: transparent;
+    color: #E100A6;
+}
