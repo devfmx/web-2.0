@@ -14,7 +14,7 @@ class Discount extends  Component {
     render(){
         return(
             <div className="row discount-bar text-center">
-                <p>Descuento Early bird <span className="discount-card">20%</span> utlizando el código <span className="discount-card">EarlyB18</span></p>
+                <p>Descuento Early bird <span className="discount-card">{this.props.dvalue}</span> utlizando el código <span className="discount-card">{this.props.dcode}</span></p>
             </div>
         );
     }

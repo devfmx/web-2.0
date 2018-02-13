@@ -20,13 +20,13 @@ class Home  extends  Component {
         super()
         jQuery.noConflict(true)
         this.updateCity = this.updateCity.bind(this)
-        this.state = {city:"none",cityId:0}
+        this.state = {city:"none",cityId:0,cityO:null}
 
     }
 
-    updateCity(city,cityId){
+    updateCity(city,cityId,cityO){
         console.log("Ciudad selecionada");
-        this.setState({city:city,cityId:cityId});
+        this.setState({city:city,cityId:cityId,cityO:cityO});
         let id = "#"+cityId;
         console.log(id);
     }
@@ -37,7 +37,7 @@ class Home  extends  Component {
         }
         else{
 
-            return <City city={this.state.city} cityId={this.state.cityId}/>
+            return <City city={this.state.city} cityId={this.state.cityId} cityO={this.state.cityO}/>
         }
     }
 

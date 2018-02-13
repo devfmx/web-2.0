@@ -9,7 +9,7 @@ class CintaHeader extends Component {
                 <div className="overlay" style={{backgroundColor:"#590463"}}></div>
                 <div className="row">
                     <div className="col-xl-9 mx-auto">
-                    <h1 className="mb-2 title-devf cinta-title">Programa Cinta Blanca</h1>
+                    <h1 className="mb-2 title-devf cinta-title2">Programa Cinta Blanca</h1>
                 </div>
             </div>
 

@@ -16,7 +16,6 @@ class Cities extends  Component {
             console.log(content.val())
             this.setState({
                 cities: content.val(),
-                prueba:"Otra prueba"
             });
         });
     }
@@ -33,6 +32,7 @@ class Cities extends  Component {
                 <CityCard city={this.state.cities[key].name}
                           changeCity={this.props.changeCity}
                           cityId={i}
+                          cityObject={this.state.cities[key]}
                           imagenUrl={this.state.cities[key].img}
                 />
             );

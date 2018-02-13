@@ -20,7 +20,7 @@ class CityCard extends  Component {
     }
 
     onSelect(e){
-        this.props.changeCity(this.props.city,this.props.cityId);
+        this.props.changeCity(this.props.city,this.props.cityId,this.props.cityObject);
     }
     //TODO on Selected add class
     render(){

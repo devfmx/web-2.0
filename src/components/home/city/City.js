@@ -15,12 +15,12 @@ class City extends  Component {
 
     render(){
         return(
-            <section className="bg-light text-center city-container" id={this.props.cityId}>
+            <section className="bg-light text-center city-container" id={this.props.cityId} val={this.props.cityO.name}>
                 <div className="container-fluid">
-                    <Discount/>
-                    <Content/>
+                    <Discount dvalue={this.props.cityO.discount.value} dcode={this.props.cityO.discount.coupon}/>
+                    <Content city={this.props.cityO}/>
                     <Test/>
-                    <Direction/>
+                    <Direction loc={this.props.cityO.Location}/>
                 </div>
             </section>
         );
