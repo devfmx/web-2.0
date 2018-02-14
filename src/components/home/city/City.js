@@ -4,7 +4,7 @@ import Discount from './discount/Discount'
 import Content from './content-city/ContentCity'
 import Test from './cinta-test/CintaTest';
 import Direction from './direction/Direction';
-import jQuery from "jquery";
+import jQuery from 'jquery';
 import Game from "./game/Game";
 window.jQuery = jQuery;
 
@@ -18,15 +18,10 @@ class City extends  Component {
         this.state = {game:"none",cityId:0}
     }
 
-
-    componentDidUpdate(){
-        console.log("Update: ", this.state.game)
-    }
-
     updateGame(cityId,game){
         console.log(game)
         console.log("Ciudad selecionada");
-        this.setState({game:game});
+        this.setState({cityId:cityId,game:game});
         let id = "#"+cityId;
         console.log(id);
     }
@@ -36,7 +31,8 @@ class City extends  Component {
             return <div></div>
         }
         else{
-            return <h4>Hola</h4>
+            return <Game game={this.state.game} cityId={this.state.cityId}/>
+
         }
     }
 

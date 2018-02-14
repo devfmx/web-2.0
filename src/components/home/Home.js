@@ -19,7 +19,6 @@ class Home  extends  Component {
         jQuery.noConflict(true)
         this.updateCity = this.updateCity.bind(this)
         this.state = {city:"none",cityId:0}
-
     }
 
     updateCity(city,cityId){
@@ -37,11 +36,6 @@ class Home  extends  Component {
 
             return <City city={this.state.city} cityId={this.state.cityId}/>
         }
-    }
-
-    updateComponentJuegito(){
-
-
     }
 
 
