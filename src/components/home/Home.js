@@ -8,16 +8,14 @@ import Carousel from './carousel/Carousel';
 import Testimonials from './testimonials/Testimonials';
 import Companies from './companies/Companies';
 import Footer from './footer/Footer';
-
-
 import jQuery from 'jquery';
 window.jQuery = jQuery;
 
 
 class Home  extends  Component {
 
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         jQuery.noConflict(true)
         this.updateCity = this.updateCity.bind(this)
         this.state = {city:"none",cityId:0}
@@ -40,6 +38,12 @@ class Home  extends  Component {
             return <City city={this.state.city} cityId={this.state.cityId}/>
         }
     }
+
+    updateComponentJuegito(){
+
+
+    }
+
 
     render () {
        

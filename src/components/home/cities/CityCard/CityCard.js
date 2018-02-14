@@ -9,7 +9,6 @@ class CityCard extends  Component {
         this.state = {isHovered:true};
         this.onSelect = this.onSelect.bind(this);
         this.onHovered = this.onHovered.bind(this);
-
     }
 
     onHovered(e){

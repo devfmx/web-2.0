@@ -7,15 +7,13 @@ class CintaTest extends Component {
 
     constructor(props){
         super(props)
-        //this.state = {isHovered:true};
         this.onSelect = this.onSelect.bind(this);
-        //this.onHovered = this.onHovered.bind(this);
 
     }
 
     onSelect(e){
         alert("Ciudad:"+this.props.city);
-        this.props.changeCity(this.props.city,this.props.cityId);
+        this.props.updateGame(this.props.city,"game");
     }
 
 
@@ -32,8 +30,6 @@ class CintaTest extends Component {
 
         );
     }
-
-
 }
 
 
