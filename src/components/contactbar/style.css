@@ -10,18 +10,30 @@
     color:#A69DA7;
     font-size: 12px;
     font-weight: 700;
-    padding-left: 50px;
+
 }
 
 .social-icons{
     right: 0;
-    font-size: 15px;
+    font-size: 12px;
     color: #fff;
     padding: 4px;
     border-radius: 50%;
     background-color: #7B2781;
     text-decoration: none;
     margin: 0px 5px;
+
+
+}
+
+@media(max-width:500px){
+    .contact-bar{
+        text-align: right !important;
+    }
+
+    .contact-text{
+        margin-bottom: 10px;
+    }
 
 
 }

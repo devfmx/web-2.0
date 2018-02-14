@@ -29,3 +29,18 @@
 .div-rights a {
     color: #FFFFFF;
 }
+
+.brand-devf {
+    padding-left: 6.33333%;
+}
+
+.logo-devf{
+    width: 22%;
+}
+
+@media (max-width: 500px) {
+    .logo-devf{
+        width: 40% !important;
+    }
+
+}

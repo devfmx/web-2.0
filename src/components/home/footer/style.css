@@ -3,6 +3,8 @@
     background-color: #3B183F;
     color: #FFFFFF;
     padding-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .row-mision p{
@@ -66,7 +68,8 @@
     font-size: 8px;
     background-color: #290D2C;
     padding: 10px 30px;
-
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .div-rights p {

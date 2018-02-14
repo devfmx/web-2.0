@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from './devf-logo.png';
+import logo from './logo-devf-desarrollamos-blanco.png';
 import './nav.css'
 import { Link } from 'react-router-dom'
 
@@ -9,8 +9,8 @@ class Navbar  extends  Component {
     render () {
         return(
             <nav className="navbar navbar-expand-lg navbar-dark bg-devf sticky-top ">
-                <Link className="navbar-brand" to="/">
-                    <img src={logo}  className="d-inline-block align-top" alt=""/>                               
+                <Link className="navbar-brand brand-devf" to="/" style={{width:"50%"}}>
+                    <img src={logo}  className="d-inline-block align-top logo-devf" alt="" style={{width:"22%"}}/>
                 </Link>
 
 

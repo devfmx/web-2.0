@@ -48,7 +48,7 @@ class Home  extends  Component {
             <div>
                 <Contact/>
                 <Navbar/>
-                <div className="container-fluid" style={{paddingLeft:"0px",paddingRight:"0px"}}>
+
                     <Masthead/>
                     <Cities changeCity={this.updateCity}/>
                     {this.updateComponentCity()}
@@ -56,7 +56,7 @@ class Home  extends  Component {
                     <Testimonials/>
                     <Companies/>
                     <Footer/>
-                </div>
+
 
 
             </div>
