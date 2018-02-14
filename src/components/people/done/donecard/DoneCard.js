@@ -3,11 +3,16 @@ import './style.css';
 
 class DoneCard extends Component {
 
+
+
     constructor(props){
         super(props);
     }
 
+
+
     render() {
+
         return (
             <div className="card done-card mx-auto" >
                 <img className="card-img-top rounded-circle" src={this.props.face} alt="Card image cap"/>

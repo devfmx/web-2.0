@@ -11,9 +11,10 @@ class People extends Component {
         <div>
           <Contact/>
           <Navbar/>
-          <Header title={"SOMOS"} text={"Nuestro gran equípo se integra de líderes y expertos que están " +
-          "cambiando la cara de México desde la trinchera tecnológica, todos tenemos una pasión en común. El " +
-          "Empoderamiento de las personas. Aquí un poquito del pasado de cada quien antes de haberse integrado a Dev.F."}/>
+          <Header title={"SOMOS"} text={"Nuestro equipo se integra de líderes y expertos que están cambiando la" +
+          " cara de México desde la trinchera tecnológica. Todos tenemos una pasión en común: el " +
+          "empoderamiento de las personas a través de la educación. Aquí un poco del pasado del equipo " +
+          "antes de haberse integrado a Dev.f: "}/>
 
           <div className="container-fluid">
             <Academic/>

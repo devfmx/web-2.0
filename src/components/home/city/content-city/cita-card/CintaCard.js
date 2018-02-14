@@ -39,8 +39,8 @@ class CintaCard extends Component{
                             <h6 className="cinta-subtitle">
                                 {level}
                             </h6>
-                            <div className="row">
-                                <div className="offset-cinta col-md-7 col-lg-7 text-center">
+                            <div className="row justify-content-center">
+                                <div className=" col-md-7 col-lg-7 text-center">
                                     <p className="cinta-text">{this.props.text}</p>
                                 </div>
                             </div>
