@@ -48,7 +48,7 @@ class Cities extends  Component {
                          <div className="col-md-9 col-lg-12">
                              <h2 className="sedes-title">Seleciona tu  Escuela</h2>
 
-                             <p>Nuestros cursos son presenciales en las siguientes ciudades:</p>
+                             <p>Todos nuestros cursos son presenciales. Nos encontramos en las siguientes ciudades:</p>
                          </div>
                      </div>
                      <div className="row">

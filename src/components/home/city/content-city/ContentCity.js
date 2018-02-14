@@ -12,16 +12,20 @@ class ContentCity extends  Component{
 
 
     render(){
-        let cintas = Object.keys(this.props.city.cintas).map((key,i) =>
+        let cintas = Object.keys(this.props.city.cintas)
+            .sort((a,b) => {return this.props.city.cintas[a].key-this.props.city.cintas[b].key})
+            .map((value,i) =>
             <div className="col-md-4 col-lg-4 col-cinta">
                 <CardCinta
-                    img={this.props.city.cintas[key].img}
-                    level={this.props.city.cintas[key].level}
-                    fullName={this.props.city.cintas[key].name}
-                    text={this.props.city.cintas[key].text}
+                    key={this.props.city.cintas[value].key}
+                    img={this.props.city.cintas[value].img}
+                    level={this.props.city.cintas[value].level}
+                    fullName={this.props.city.cintas[value].name}
+                    text={this.props.city.cintas[value].text}
                 />
             </div>
         )
+
 
 
         return(

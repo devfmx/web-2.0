@@ -18,7 +18,7 @@ class City extends  Component {
             <section className="bg-light text-center city-container" id={this.props.cityId} val={this.props.cityO.name}>
                 <div className="container-fluid">
                     <Discount dvalue={this.props.cityO.discount.value} dcode={this.props.cityO.discount.coupon}/>
-                    <Content city={this.props.cityO}/>
+                    <Content city={this.props.cityO} ref="cinta"/>
                     <Test/>
                     <Direction loc={this.props.cityO.Location}/>
                 </div>

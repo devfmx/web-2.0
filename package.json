@@ -25,6 +25,7 @@
     "react-router-dom": "^4.2.2",
     "react-router-scroll-4": "^1.0.0-beta.1",
     "react-scripts": "1.1.0",
+    "react-scroll-to-component": "^1.0.2",
     "smoothscroll": "^0.4.0",
     "wowjs": "^1.1.3"
   },

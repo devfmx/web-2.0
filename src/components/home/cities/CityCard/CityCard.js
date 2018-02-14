@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import prueba from './prueba.svg';
 import './style.css';
+import scrollToComponent from 'react-scroll-to-component';
+
+
+
 class CityCard extends  Component {
 
 
@@ -20,7 +24,9 @@ class CityCard extends  Component {
     }
 
     onSelect(e){
+
         this.props.changeCity(this.props.city,this.props.cityId,this.props.cityObject);
+        setTimeout(function() { console.log(this.refs.cinta) }.bind(this), 1500);
     }
     //TODO on Selected add class
     render(){
