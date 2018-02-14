@@ -43,6 +43,10 @@
     background-color: transparent;
 }
 
+.div-rewards{
+    border-left: solid grey 1px;
+}
+
 .div-rewards p {
     margin-top: 5px;
     font-size: 10px;
@@ -55,6 +59,10 @@
 
 .news-title {
     font-size: 0.8rem;
+}
+
+.div-corporativo{
+    border-left: solid grey 1px;
 }
 
 .div-corporativo p {
@@ -74,4 +82,32 @@
 
 .div-rights p {
     margin-bottom: 0px;
+}
+
+.row-news{
+    border-top:solid grey 1px;
+    padding-top:5px;
+}
+
+
+@media(max-width: 500px){
+    .div-corporativo{
+        border-top: solid grey 1px;
+        padding-top: 20px;
+    }
+
+    .div-rewards{
+        border-top: solid grey 1px;
+        padding-top: 20px;
+
+    }
+
+    .row-news{
+        padding-bottom: 10px;
+        border-top: 0px;
+    }
+
+    .input-news{
+        width: 100%;
+    }
 }

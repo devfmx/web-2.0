@@ -11,8 +11,8 @@ class Footer extends Component{
     render(){
         return(
             <footer>
-                <div className="row row-footer">
-                    <div className="offset-md-1 col-md-3 col-lg-3">
+                <div className="row row-footer justify-content-center">
+                    <div className=" col-md-3 col-lg-3">
                         <div className="row">
                             <div className=" col-md-12 div col-lg-12">
                                 <h5>Misión</h5>
@@ -20,23 +20,20 @@ class Footer extends Component{
                         </div>
                         <div className="row row-mision">
                             <div className="col-md-12 div col-lg-12">
-                               <p>En Dev.F aceleramos el desarrollo socioeconómico de nuestro país con programas de
-                                   educación en tecnología de calidad, incluyentes y accesibles.
+                               <p>Dev.f existe para acelerar el desarrollo socio-económico de América Latina a
+                                   través de educación de tecnología de alta calidad, de forma incluyente y accesible.
                                </p>
 
-                                <p>En base a la metodología hackatón, diseñamos programas
-                                    de EdTech que son <strong>30x más baratos y 10x más rápidos</strong> que
-                                    las Universidades.</p>
                             </div>
                         </div>
 
-                        <div className="row" style={{borderTop:"solid grey 1px", paddingTop:"5px"}}>
+                        <div className="row row-news" >
                             <div className="col-md-12 col-lg-12">
                                 <h5 className="news-title">¿Quieres recibir nuestras noticias?</h5>
                             </div>
 
                         </div>
-                        <div className="row" >
+                        <div className="row pb-4" >
                             <div className="col-md-12 col-lg-12">
                                 <form className="form-inline">
 
@@ -49,7 +46,7 @@ class Footer extends Component{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-lg-3 div-rewards" style={{borderLeft:"solid grey 1px"}}>
+                    <div className="col-md-3 col-lg-3 div-rewards" >
                         <div className="row">
                             <div className="col-md-12 col-lg-12 text-center">
                                 <img src={forbes} alt=""/>
@@ -71,7 +68,7 @@ class Footer extends Component{
                         </div>
 
                     </div>
-                    <div className="col-md-3 col-lg-3 div-corporativo" style={{borderLeft:"solid grey 1px"}}>
+                    <div className="col-md-3 col-lg-3 div-corporativo" >
                         <div className="row">
                             <div className="col-md-12 col-lg-12">
                                 <h5>Corporativo</h5>

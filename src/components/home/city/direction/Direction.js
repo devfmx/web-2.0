@@ -13,7 +13,7 @@ class Direction extends Component{
 
     render(){
         return(
-            <div className="card-direction">
+            <div className="card-direction pb-4">
                 <div className="row">
                     <div className="col-md-12 col-lg-12">
                         <p> <span className="direction-span">{this.props.loc.city}: </span>{this.props.loc.dir}</p>
