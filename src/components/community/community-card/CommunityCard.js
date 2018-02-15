@@ -6,12 +6,15 @@ class CommunityCard extends Component {
     
     constructor(props){
         super(props);
+
+
     }
-    
+
+
     
     render() {
         return (
-            <div className="card cc-card">
+            <div className="card cc-card" onClick={this.handleModal}>
                 <div className="row justify-content-center">
                     <div className="col-md-10 col-lg-10 text-center">
                         <span className="cc-quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></span>
@@ -27,7 +30,10 @@ class CommunityCard extends Component {
                     </div>
 
                 </div>
+
             </div>
+
+
         );
     }
 }

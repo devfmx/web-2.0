@@ -66,3 +66,9 @@
     background-color: transparent;
     color: #E100A6;
 }
+
+@media (max-width: 500px) {
+    .cinta-image{
+        width: 35%;
+    }
+}

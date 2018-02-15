@@ -29,7 +29,7 @@ class CintaCard extends Component{
                 <div className="card cinta-card">
                     <div className="row">
                         <div className="col-md-12 col-lg-12 ">
-                            <Link to={{ pathname: '/cinta', search:`?city=${this.props.cityID}&cinta=${this.props.cinta}`}} className="cinta-detalle float-right">Ver detalle</Link>
+                            <Link to={{ pathname: `cinta/${this.props.cityID}/${this.props.cinta}`}} className="cinta-detalle float-right">Ver detalle</Link>
                         </div>
                     </div>
 

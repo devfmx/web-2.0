@@ -83,10 +83,10 @@ class Footer extends Component{
                                 <p><i className="fa fa-clock-o"></i> Horario: Lunes a viernes de 10:00 hrs a 19:00 hrs.</p>
                                 <div className="col-md-12 col-lg-12 social-container">
 
-                                    <a href="https://twitter.com/devfmx?lang=es" className="social-icons pull-left" style={{padding:"2px 6px"}}>
+                                    <a href="https://twitter.com/devfmx?lang=es"  target="_blank" className="social-icons pull-left" style={{padding:"2px 6px"}}>
                                         <i className="fa fa-twitter"></i>
                                     </a>
-                                    <a href="https://www.facebook.com/devfmx/" className="social-icons pull-left" style={{padding:"2px 9px"}}>
+                                    <a href="https://www.facebook.com/devfmx/" target="_blank" className="social-icons pull-left" style={{padding:"2px 9px"}}>
                                         <i className="fa fa-facebook "></i>
 
                                     </a>

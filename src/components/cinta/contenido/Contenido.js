@@ -5,18 +5,26 @@ import './style.css';
 
 
 class Contenido extends Component {
+
+    constructor(props){
+        super(props);
+    }
+
+
     render() {
+
+
+
         return (
            <div>
-               <div className="row justify-content-center" style={{backgroundColor:"#F9F9F9"}}>
+               <div className="row justify-content-center pb-5" style={{backgroundColor:"#F9F9F9"}}>
                    <div className="col-md-12 col-lg-12 text-center">
                        <img src={cinta} alt="" className="rounded-circle cinta-image"/>
                        <div className="col-md-12 col-lg-12 text-center">
                            <h4 className="objective">Objetivos del programa</h4>
                        </div>
                        <div className="col-md-12 col-lg-12 text-center">
-                           <p className="objective-text">Aprender a construir un si o web con HTML5 + CSS3 + Javascript y conocer los fundamentos de la lógica
-                               de programación.</p>
+                           <p className="objective-text">{this.props.objective}</p>
                        </div>
 
                        <div className="col-md-10 col-lg-10 mx-auto" style={{backgroundColor:"#FFF"}}>
@@ -26,30 +34,6 @@ class Contenido extends Component {
                                </div>
                                <div className="col-md-12 col-lg-12 text-justify mt-3"  style={{borderBottom:"solid #F9F9F9 2px"}}>
                                    <ul className="cinta-list">
-                                       <li>
-                                           HTML5, CSS3
-                                           <span>Construye tu primer si o web.</span>
-                                       </li>
-                                       <li>
-                                           Estructuras de control
-                                           <span>Entiende cómo piensa una computadora.</span>
-                                       </li>
-                                       <li>
-                                           Funciones
-                                           <span>Aprende a descomponer problemas en partes más pequeñas.</span>
-                                       </li>
-                                       <li>
-                                           Arreglos
-                                           <span>Aprende los fundamentos para el almacenamiento de datos.</span>
-                                       </li>
-                                       <li>
-                                           Objetos
-                                           <span>Optimiza tu forma de pensar al momento de atacar problemas.</span>
-                                       </li>
-                                       <li>
-                                           Desarrolla tu propio proyecto
-                                           <span>Aplica las tecnologías aprendidas en un proyecto web personal.</span>
-                                       </li>
                                    </ul>
                                </div>
                                <div className="col-md-12 col-lg-12 text-center pb-3 pt-3" style={{borderBottom:"solid #F9F9F9 2px"}}>
@@ -75,7 +59,7 @@ class Contenido extends Component {
                             <div className="row justify-content-center">
                                 <div className="col-md-10 col-lg-10 pt-5">
                                     <p className="text-pago">
-                                        Sólo pagas $2,100 MXN. por mes ya que ofrecemos pagar en hasta en 12 mensualidades
+                                        Con la promoción actual sólo pagas $2,100 MXN. por mes ya que ofrecemos pagar en hasta en 12 mensualidades
                                         SIN intereses. Puedes pagar
                                         también de contado $25,000 MXN.</p>
                                 </div>

@@ -19,10 +19,10 @@ class ContactBar extends Component {
 
                 <div className="col-md-6 col-lg-6 social-container">
 
-                    <a href="https://twitter.com/devfmx?lang=es" className="social-icons pull-right" style={{padding:"2px 6px"}}>
+                    <a href="https://twitter.com/devfmx?lang=es" target="_blank" className="social-icons pull-right" style={{padding:"2px 6px"}}>
                         <i className="fa fa-twitter"></i>
                     </a>
-                    <a href="https://www.facebook.com/devfmx/" className="social-icons pull-right" style={{padding:"2px 9px"}}>
+                    <a href="https://www.facebook.com/devfmx/" target="_blank" className="social-icons pull-right" style={{padding:"2px 9px"}}>
                         <i className="fa fa-facebook "></i>
 
                     </a>
