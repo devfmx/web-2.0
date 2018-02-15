@@ -44,7 +44,7 @@ class CintaCard extends Component{
                                     <p className="cinta-text">{this.props.text}</p>
                                 </div>
                             </div>
-                            <a href="#" className="btn btn-cinta">Insicribete</a>
+                            <a href="https://devfqa.herokuapp.com" className="btn btn-cinta">Inscribete</a>
                         </div>
                 </div>
 
