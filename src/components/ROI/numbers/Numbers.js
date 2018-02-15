@@ -22,9 +22,14 @@ class Numbers extends Component {
                         <h3>CONSIDERA ESTO</h3>
                     </div>
                     <div className="col-md-11 col-lg-11 text-center mt-3">
-                        <p>Si consigues un trabajo que te pague <strong> $15,000 pesos</strong> mensuales al terminar tu Cinta Roja,
-                            cuando ya estás listo para salir a la industria (toma en cuenta que el 80% de nuestros graduados de
-                            cintas avanzadas que buscan trabajo lo ob enen), estarás recuperando tu inversión en <strong>menos de 6 meses.</strong></p>
+                        <p>Si consigues un trabajo que te pague $15,000 pesos mensuales al terminar tu
+                            Cinta Roja, cuando ya estás listo para salir a la industria (toma en cuenta que el 80%
+                            de nuestros graduados de cintas avanzadas que buscan trabajo lo obtienen en un promedio de 3 meses),
+                            estarás recuperando tu inversión en menos de 6 meses. Justamente ésta es la razón por
+                            la que Dev.f está hackeando la educación, siendo 20x más barato y 8x más rápido que los programas
+                            de educación tradicionales. Nuestro modelo implica una tasa de recuperación de la inversión que nos
+                            ha posicionado como una de las empresas sociales más innovadoras de México.
+                        </p>
                     </div>
                     <div className="col-md-12 col-lg-12 text-center mt-3">
                         <h4>Dev.f está hackeando la educación</h4>

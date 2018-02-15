@@ -27,6 +27,7 @@ class FAQ extends Component {
                                         programas, ya que varios de ellos están diseñados para principiantes o personas
                                         que no tienen un perfil profesional relacionado a tecnología.</p>
                                 </Collapsible>
+
                                 <Collapsible trigger="¿Cuáles son sus programas para principiantes?">
                                         <p>
                                             Tenemos cuatro programas que pueden cursar personas sin experiencia en programación:
@@ -34,6 +35,37 @@ class FAQ extends Component {
                                             (Integrar links a la descripción de cada programa).
                                         </p>
                                 </Collapsible>
+
+                                <Collapsible trigger="¿Qué se ve en Cinta Blanca?">
+                                    <p>En Cinta Blanca aprendemos los conceptos fundamentales de cómo funciona la programación orientada a objetos.</p>
+                                </Collapsible>
+
+
+                                <Collapsible trigger="¿Qué se ve en Cinta Roja?">
+                                    <p>Es un programa de nivel intermedio y se requiere entregar un exámen diagnóstico para participar en el programa. Necesitas tener experiencia en CSS, html y conocimientos de programación orientada a objetos con JavaScript.</p>
+                                    <p>En Cinta Roja se aprende a crear una aplicación web que esté conectada a una base de datos. El estudiante comienza a ver fundamentos de ciencias computacionales como algoritmos, estructuras de datos, arquitecturas cliente - servidor, entre otros temas.</p>
+                                </Collapsible>
+
+                                <Collapsible trigger="¿Qué se ve en Cinta Negra?">
+                                    <p>Es un programa de nivel avanzado y se requiere entregar un exámen diagnóstico para participar en el programa. Necesitas tener experiencia en CSS, HTML, Git, conocimientos de programación orientada a objetos con JavaScript, algoritmos, estructuras de datos y la arquitectura cliente - servidor.</p>
+                                    <p>En Cinta Negra desarrollaremos 4 proyectos en React o Express utilizando las mejores prácticas como el uso de arquitecturas como clean code, SOLID y patrones de diseño. Además aplicaremos principios de ingeniería de software modernos que utilizan empresas como Airbnb, Uber y Google.</p>
+                                </Collapsible>
+
+                                <Collapsible trigger="¿Cuál es la diferencia entre Executive Hacker y Cinta Blanca?">
+                                    <p>El programa Cinta Blanca está dirigido a personas que quieran entender el mundo del internet y de la programación desde el punto de vista de un programador; es decir, van a aprender los fundamentos prácticos para poder desarrollar habilidades o una carrera como programadores. En Executive Hacker los participantes entienden el mundo de internet y la programación pero desde la perspectiva de un profesional que trabaja de cerca (o quiere estar cerca) con tecnología, programadores o temas de innovación.</p>
+                                </Collapsible>
+
+                                <Collapsible trigger="No sé si entrar a Cinta Roja o a Cinta Negra.">
+                                    <p>En nuestra página principal puedes encontrar un pequeño examen para evaluar si necesitas tomar cinta roja o cinta negra.  Si después de este todavía no estás seguro te tenemos varias alternativas: </p>
+                                    <p>1. Regístrate para la cinta que sientas que te queda mejor, el primer día haremos un examen diagnóstico en el que evaluaremos más a profundidad tus competencias y te recomendaremos si es mejor para ti estar en otro nivel.</p>
+                                    <p>2. Todos nuestros programas cuestan lo mismo y son a la misma hora, así que si en tus primeras clases sientes que el nivel que estás es el equivocado, te puedes cambiar a otra cinta.</p>
+                                    <p>3. Escríbenos a hola@devf.mx o a nuestro chat para que te pongamos en contacto con alguno de nuestros Senseis.</p>
+                                </Collapsible>
+
+                                <Collapsible trigger="¿Me dan algún reconocimiento al final?">
+                                    <p>Cuando terminas el programa te otorgamos un diploma que certifica la terminación completa y exitosa del programa educativo. Para recibir este diploma el estudiante tiene que asistir como mínimo al 80% de las sesiones.</p>
+                                </Collapsible>
+
                                 <Collapsible trigger="¿Me dan algún reconocimiento al final?">
                                     <p>
                                         Cuando terminas el programa te otorgamos un diploma que certifica la terminación

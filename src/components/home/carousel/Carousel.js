@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import './style.css';
 import OwlCarousel from 'react-owl-carousel';
 
-import program from './progam.jpg';
-
 
 function importAll(r) {
     let images = {};
@@ -26,6 +24,19 @@ class Carousel extends Component{
             rewind: true,
             autoplay: true
         };
+
+        const responsive ={
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+
         console.log(images)
         let allImages = Object.keys(images).map((value) =>
             <div className="item"><div className="overlay-carousel">
@@ -36,7 +47,7 @@ class Carousel extends Component{
                <div className="col-md-12 col-lg-12">
                    <div className="div-carousel">
                        <OwlCarousel
-                           loop margin={0} autoplay={true} slideBy={3}
+                           loop margin={0} autoplay={true} slideBy={3} responsive={responsive}
                        >
                            {allImages}
                        </OwlCarousel>

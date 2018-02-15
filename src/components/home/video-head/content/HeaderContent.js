@@ -1,11 +1,45 @@
 import React, {Component} from 'react';
 import "./style.css";
+import scrollToComponent from 'react-scroll-to-component';
 import Modal from 'react-bootstrap4-modal';
 
 
 
 class HeaderContent  extends  Component {
 
+    constructor(props){
+        super(props);
+        this.state = {
+            modal:false,
+        };
+
+        this.handleInterest = this.handleInterest.bind(this);
+        this.handleVideo = this.handleVideo.bind(this);
+        this.modalBackdropClicked = this.modalBackdropClicked.bind(this);
+    }
+
+    handleInterest(e){
+        var i = 10;
+        var int = setInterval(function() {
+            window.scrollTo(0, i);
+            i += 10;
+            if (i >= 580) clearInterval(int);
+        }, 20);
+
+    }
+
+
+    handleVideo(){
+        this.setState({
+            modal:!this.state.modal
+        })
+    }
+
+    modalBackdropClicked(){
+        this.setState({
+            modal:!this.state.modal
+        })
+    }
     
     render () {
        
@@ -29,13 +63,24 @@ class HeaderContent  extends  Component {
 
                 <div className="row row-devf-b justify-content-center">
                     <div className="col-xl-3 col-lg-3 col-md-3 text-center">
-                       <button className="btn btn-devf">Me interesa</button>
+                       <button className="btn btn-devf" onClick={this.handleInterest}>Me interesa</button>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-3  text-center">
-                        <button className="btn btn-devf-video"> <i className="fa fa-play"></i>&nbsp; Ver Video</button>
+                        <button className="btn btn-devf-video" onClick={this.handleVideo}> <i className="fa fa-play"></i>&nbsp; Ver Video</button>
                     </div>
                 </div>
-        </div>        
+
+
+                <Modal visible={this.state.modal} onClickBackdrop={this.modalBackdropClicked} id="modal-video">
+
+                    <iframe className="video-modal" src="https://www.youtube.com/embed/ZgewiFcvChw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+                </Modal>
+
+
+        </div>
+
+
     
         );
 

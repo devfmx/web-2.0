@@ -5,7 +5,7 @@
 
 .div-figure img {
     margin: 0 auto;
-
+    width :100%
 }
 
 .div-figure p {
@@ -13,3 +13,14 @@
     font-size: 20px;
 }
 
+
+.ol-topics{
+    color: #FFFFFF;
+}
+
+
+.ol-topics h5   {
+    font-size: 25px;
+    display: block;
+    font-weight: 700;
+}

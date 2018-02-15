@@ -10,7 +10,7 @@ class Path extends Component {
             <div className="path-sec ">
                 <div className="row">
                     <div className="col-md-12 col-lg-12 text-center">
-                        <h3>Recorre el camino completo del <strong>Code Hacker</strong></h3>
+                        <h3>Recorre el Camino de Código en <strong>Dev.f</strong> con nuestros diferentes cursos en todos los niveles </h3>
                     </div>
                 </div>
                 <div className="row">
@@ -35,8 +35,9 @@ class Path extends Component {
                         <hr/>
                     </div>
                     <div className="col-md-12 col-lg-12 text-center mt-3 ">
-                        <p style={{color:"#000000",fontSize:"20px"}}>Obtendrás el <strong>25%</strong> de descuento en la
-                            Cinta Roja y un <strong>30%</strong> en la Cinta Negra cuando vayas a pagarlas.</p>
+                        <p style={{color:"#000000",fontSize:"20px"}}>
+                            Obtendrás el <strong>10%</strong> de descuento en la Cinta Roja y un <strong>20% </strong>
+                             en la Cinta Negra cuando vayas a pagarlas.</p>
                     </div>
                 </div>
                 <div className="row mt-4 justify-content-center pb-5" style={{backgroundColor:"#F9F9F9"}}>
@@ -46,12 +47,15 @@ class Path extends Component {
                         </div>
                     </div>
                     <div className="col-md-12 col-lg-12 text-center">
-                        <p style={{color:"#000000",fontSize:"20px"}}>Esto representa una inversión total de <strong>$61,250 pesos</strong>
+                        <p style={{color:"#000000",fontSize:"20px"}}>
+                            Esto representa una inversión total de <strong>$40,500 pesos </strong>
                         </p>
                     </div>
                     <div className="col-md-8 col-lg-8 text-center">
-                        <p style={{color:"#A69DA7",fontSize:"16px"}}>(Lo equivalente a solamente UN semestre de las principales universidades de paga).
-                            Además puedes diferirlo a meses sin intereses.</p>
+                        <p style={{color:"#A69DA7",fontSize:"16px"}}>
+                            (esto equivale a menos de un solo semestre de las principales universidades privadas).
+                            Además puedes diferirlo a meses sin intereses.
+                        </p>
                     </div>
                 </div>
 

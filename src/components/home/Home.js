@@ -50,7 +50,7 @@ class Home  extends  Component {
                 <Navbar/>
 
                     <Masthead/>
-                    <Cities changeCity={this.updateCity}/>
+                    <Cities changeCity={this.updateCity} ref="cities"/>
                     {this.updateComponentCity()}
                     <Carousel/>
                     <Testimonials/>
