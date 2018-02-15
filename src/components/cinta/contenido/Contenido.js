@@ -71,7 +71,7 @@ class Contenido extends Component {
                                             también de contado ${this.props.precios.precio} MXN.</p>
                                     </div>
                                     <div className="col-md-10 col-lg-10 text-center pb-5">
-                                        <a href="https://devfqa.herokuapp.com" className="btn btn-buy-cinta"> INSCRÍBETE</a>
+                                        <a href="https://pagos.devf.mx/" className="btn btn-buy-cinta"> INSCRÍBETE</a>
 
                                     </div>
                                 </div>
