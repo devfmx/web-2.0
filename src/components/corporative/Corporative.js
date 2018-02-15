@@ -4,6 +4,10 @@ import Contact from '../contactbar/ContactBar';
 import Header from '../othersheader/OtherHead';
 import Goals from './goals/Goals';
 import Quotes from './quotes/Quotes';
+import Carousel from '../home/carousel/Carousel';
+import Community from '../home/testimonials/Testimonials';
+import Companies from'../home/companies/Companies';
+import Footer from '../home/footer/Footer';
 
 class Corporative extends Component {
     render() {
@@ -18,6 +22,10 @@ class Corporative extends Component {
                     <Goals/>
                     <Quotes/>
                 </div>
+                <Carousel/>
+                <Community/>
+                <Companies/>
+                <Footer/>
 
             </div>
         );

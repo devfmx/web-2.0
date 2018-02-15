@@ -22,7 +22,7 @@ class HeaderContent  extends  Component {
         var i = 10;
         var int = setInterval(function() {
             window.scrollTo(0, i);
-            i += 10;
+            i += 25;
             if (i >= 580) clearInterval(int);
         }, 20);
 
@@ -71,9 +71,9 @@ class HeaderContent  extends  Component {
                 </div>
 
 
-                <Modal visible={this.state.modal} onClickBackdrop={this.modalBackdropClicked} id="modal-video">
+                <Modal visible={this.state.modal} onClickBackdrop={this.modalBackdropClicked} id="modal-video" >
 
-                    <iframe className="video-modal" src="https://www.youtube.com/embed/ZgewiFcvChw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe className="video-modal"  src="https://www.youtube.com/embed/ZgewiFcvChw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
                 </Modal>
 

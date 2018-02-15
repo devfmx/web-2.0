@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import './style.css';
-import forbes from './reconocimiento-forbes.png';
-import gifted from './reconocimiento-gifted-citizen.png';
-import redbox from './reconocimiento-redbox.png';
+import forbes from './reconocimiento-forbes-blanco.png';
+import gifted from './reconocimiento-gifted-citizen-blanco.png';
+import redbox from './reconocimiento-redbox-blanco.png';
 
 class Footer extends Component{
 
@@ -27,14 +27,14 @@ class Footer extends Component{
                             </div>
                         </div>
 
-                        <div className="row row-news" >
+                        <div className="row row-news pt-3" >
                             <div className="col-md-12 col-lg-12">
                                 <h5 className="news-title">¿Quieres recibir nuestras noticias?</h5>
                             </div>
 
                         </div>
                         <div className="row pb-4" >
-                            <div className="col-md-12 col-lg-12">
+                            <div className="col-md-12 col-lg-12 mt-2">
                                 <form className="form-inline">
 
                                     <div className="form-group mx-sm-0 mb-0">
@@ -55,14 +55,14 @@ class Footer extends Component{
                         </div>
                         <div className="row">
                             <div className="col-md-12 col-lg-12 text-center">
-                                <img src={gifted} alt=""/>
-                                <p>Reconocidos por Ciudad de las Ideas con el
+                                <img src={gifted} alt="" style={{width:"50%"}}/>
+                                <p>Premiados por la Ciudad de las Ideas con el
                                     reconocimiento internacional Gifted Citizen</p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-md-12 col-lg-12 text-center">
-                                <img src={redbox} alt=""/>
+                                <img src={redbox} alt="" style={{width:"50%"}} />
                                 <p>Reconocidos con el Premio Redbox como la Startup mas Innovadora de México en el 2017</p>
                             </div>
                         </div>
@@ -82,16 +82,11 @@ class Footer extends Component{
                                 <p><i className="fa fa-envelope"></i> E-mail: hola@devf.mx</p>
                                 <p><i className="fa fa-clock-o"></i> Horario: Lunes a viernes de 10:00 hrs a 19:00 hrs.</p>
                                 <div className="col-md-12 col-lg-12 social-container">
-                                    <a href="" className="social-icons  ">
-                                        <i className="fa fa-whatsapp"></i>
-                                    </a>
-                                    <a href="" className="social-icons ">
-                                        <i className="fa fa-instagram"></i>
-                                    </a>
-                                    <a href="" className="social-icons ">
+
+                                    <a href="https://twitter.com/devfmx?lang=es" className="social-icons pull-left" style={{padding:"2px 6px"}}>
                                         <i className="fa fa-twitter"></i>
                                     </a>
-                                    <a href="" className="social-icons ">
+                                    <a href="https://www.facebook.com/devfmx/" className="social-icons pull-left" style={{padding:"2px 9px"}}>
                                         <i className="fa fa-facebook "></i>
 
                                     </a>
@@ -107,7 +102,7 @@ class Footer extends Component{
                     <div className="col-md-6 col-lg-6">
                         <p>® 2018 Dev.F. All rights reserved.</p>
                     </div>
-                    <div className="col-md-6 col-lg-6">
+                    <div className="col-md-6 col-lg-6 text-right">
                         <a href="">Aviso de Privacidad </a> | <a href="">Términos y Condiciones</a>
                     </div>
                 </div>

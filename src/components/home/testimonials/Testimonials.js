@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import "./style.css";
 import CardTestimonial from "./card-testimonial/CardTestimonial";
+
 import { Link } from 'react-router-dom'
 
 function importAll(r) {

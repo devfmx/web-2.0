@@ -4,6 +4,11 @@ import Contact from '../contactbar/ContactBar';
 import Header from '../othersheader/OtherHead';
 import hexagono from './metodologia.png';
 import './style.css';
+import Carousel from '../home/carousel/Carousel';
+import Community from '../home/testimonials/Testimonials';
+import Companies from'../home/companies/Companies';
+import Footer from '../home/footer/Footer';
+
 
 
 class Methodology extends Component {
@@ -95,6 +100,14 @@ class Methodology extends Component {
 
 
                     </div>
+
+                <Carousel/>
+                <Community/>
+                <Companies/>
+                <Footer/>
+
+
+
                 </div>
 
         );

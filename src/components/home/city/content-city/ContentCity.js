@@ -17,6 +17,8 @@ class ContentCity extends  Component{
             .map((value,i) =>
             <div className="col-md-4 col-lg-4 col-cinta">
                 <CardCinta
+                    cinta={this.props.city.cintas[value].key}
+                    cityID={this.props.city.id}
                     key={this.props.city.cintas[value].key}
                     img={this.props.city.cintas[value].img}
                     level={this.props.city.cintas[value].level}
@@ -29,7 +31,7 @@ class ContentCity extends  Component{
 
 
         return(
-            <div className="container" style={{paddingTop:"25px"}}>
+            <div  style={{paddingTop:"25px" }}>
                 <div className="row">
                     <div className="col-md-12 col-lg-12 text-center">
                         <h4 className="sede-title">Programas en {this.props.city.name}</h4>
@@ -44,7 +46,7 @@ class ContentCity extends  Component{
                 </div>
                 <div className="row text-center">
                      <div className="col-md-12 col-lg-12 text-center sede-prices">
-                         <p>Todos nuestros cursos cuestan <span>${this.props.city.price}</span> MXN ó <span>$999</span> pagando a 12 meses sin intereses</p>
+                         <p>Todos nuestros cursos cuestan <span>${this.props.city.price}</span> MXN ó <span>$999</span> pagando a 12 meses sin intereses con esta promición</p>
                      </div>
                 </div>
                 <div className="row justify-content-center">

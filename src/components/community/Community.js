@@ -4,7 +4,10 @@ import Contact from '../contactbar/ContactBar';
 import Header from '../othersheader/OtherHead';
 import CCard from './community-card/CommunityCard';
 import data from './comunidad-data';
-
+import Carousel from '../home/carousel/Carousel';
+import Com from '../home/testimonials/Testimonials';
+import Companies from'../home/companies/Companies';
+import Footer from '../home/footer/Footer';
 
 class Community extends Component {
 
@@ -30,6 +33,10 @@ class Community extends Component {
                         {cards}
                     </div>
                 </div>
+                <Carousel/>
+                <Com/>
+                <Companies/>
+                <Footer/>
 
             </div>
         );

@@ -4,6 +4,10 @@ import Contact from '../contactbar/ContactBar';
 import Header from '../othersheader/OtherHead';
 import Academic from './academic/AcademicTeam';
 import Done from './done/DoneTeam';
+import Carousel from '../home/carousel/Carousel';
+import Community from '../home/testimonials/Testimonials';
+import Companies from'../home/companies/Companies';
+import Footer from '../home/footer/Footer';
 
 class People extends Component {
   render() {
@@ -20,6 +24,10 @@ class People extends Component {
             <Academic/>
             <Done/>
           </div>
+            <Carousel/>
+            <Community/>
+            <Companies/>
+            <Footer/>
 
         </div>
     );

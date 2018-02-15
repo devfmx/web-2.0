@@ -4,6 +4,10 @@ import Contact from '../contactbar/ContactBar';
 import Header from '../othersheader/OtherHead';
 import Collapsible from 'react-collapsible';
 import "./style.css";
+import Carousel from '../home/carousel/Carousel';
+import Community from '../home/testimonials/Testimonials';
+import Companies from'../home/companies/Companies';
+import Footer from '../home/footer/Footer';
 
 //TODO Hacer un componente para cada seccion
 class FAQ extends Component {
@@ -340,6 +344,12 @@ class FAQ extends Component {
 
 
                 </div>
+                <Carousel/>
+                <Community/>
+                <Companies/>
+                <Footer/>
+
+
             </div>
         );
     }

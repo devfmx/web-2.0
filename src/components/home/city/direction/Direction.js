@@ -19,11 +19,7 @@ class Direction extends Component{
                         <p> <span className="direction-span">{this.props.loc.city}: </span>{this.props.loc.dir}</p>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-md-12 col-lg-12 text-center">
-                        <p> <span className="direction-span">Telefono:</span> {this.props.loc.tel}</p>
-                    </div>
-                </div>
+
                 <div className="row">
                     <div className="col-md-12 col-lg-12 text-center">
                         <a href={this.props.loc.map} target="_blank" className="direction-map"><i className="fa fa-map-marker"></i> &nbsp; Ver mapa</a>

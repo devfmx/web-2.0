@@ -37,7 +37,7 @@ class App extends Component {
                 <Route path="/comunidad" component={Community}/>
                 <Route path="/faq" component={FAQ}/>
                 <Route path="/corporativos" component={Corporative}/>
-                <Route path="/cinta" component={Cinta}/>
+                <Route path="/cinta/:cityID/:cinta" component={Cinta}/>
             </main>
             </ScrollContext>
           </Router>
