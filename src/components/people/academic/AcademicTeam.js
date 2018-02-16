@@ -41,21 +41,15 @@ class AcademicTeam extends Component{
                         <h3>Academic Team</h3>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-md-2 col-lg-2">
-
-                    </div>
+                <div className="row justify-content-center">
                     <div className="col-md-8 col-lg-8 text-center" style={{marginTop:"2.5rem"}}>
                         <p>Responsables de coordinar a los equipos de Senseis y construir con ellos el contenido
                             educativo para que estudiantes puedan ingresar y/o crecer en el mundo de la tecnología.</p>
                     </div>
-                    <div className="col-md-2 col-lg-2">
 
-                    </div>
                 </div>
 
-                <div className="row" style={{marginTop:"2.5rem"}}>
-                    <div className="col-md-2 col-lg-2"></div>
+                <div className="row justify-content-center" style={{marginTop:"2.5rem"}}>
                     {profiles}
                 </div>
 

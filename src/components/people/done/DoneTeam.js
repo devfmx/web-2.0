@@ -42,14 +42,14 @@ class DoneTeam extends Component {
 
 
 
-                    <div className="col-md-4 col-lg-4 ">
+                    <div className="col-md-4 col-lg-4 mb-4">
                         <DoneCard face={images['equipo-elias.png']} fullname={"Elías Shuchleib"} biography={"Miembro activo de diversas " +
                         "comunidades y proyectos de innovación, Elias ha sido co-director del hackathon StartupBus " +
                         "México y hoy es el CGSDO (Chief Get Shit Done Officer) en Dev.f."}
                         />
                     </div>
 
-                    <div className="col-md-4 col-lg-4 mb-4">
+                    <div className="col-md-4 col-lg-4 mb-4 ">
                         <DoneCard face={images['equipo-orly.jpg']} fullname={"Orly Goldsmith"}
                                   biography={"Graduada de London School of Economics and Political " +
                                   "Science, Orly tiene un especial interés por la inclusión educativa " +

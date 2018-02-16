@@ -19,3 +19,15 @@
     transform: scale(1.1);
 
 }*/
+
+
+@media(max-width: 500px){
+
+
+    .image-overlay{
+        background: linear-gradient(to top right, transparent 50%, rgba(106,36,114, 0.5) 51%) 0 0/178% 230px;
+
+    }
+
+
+}

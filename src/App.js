@@ -9,7 +9,8 @@ import FAQ from './components/FAQ/FAQ';
 import Corporative from './components/corporative/Corporative';
 import Cinta from './components/cinta/Cinta';
 import { ScrollContext } from 'react-router-scroll-4';
-
+import Privacidad from './components/privacidad/Privacidad';
+import TYC from './components/tyc/TYC';
 
 
 import {
@@ -38,6 +39,9 @@ class App extends Component {
                 <Route path="/faq" component={FAQ}/>
                 <Route path="/corporativos" component={Corporative}/>
                 <Route path="/cinta/:city/:program" component={Cinta}/>
+                <Route path="/privacidad" component={Privacidad}/>
+                <Route path="/terminos" component={TYC}/>
+
             </main>
             </ScrollContext>
           </Router>

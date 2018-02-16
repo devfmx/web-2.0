@@ -11,7 +11,7 @@ class AcademicCard extends Component {
 
     render() {
         return (
-            <div className="card academic-card" >
+            <div className="card academic-card mt-5" >
                 <img className="card-img-top rounded-circle" src={this.props.face} alt="Card image cap"/>
                     <div className="card-body">
                         <h5 className="card-title text-center">{this.props.fullname}</h5>

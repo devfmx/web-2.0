@@ -3,6 +3,8 @@ import './style.css';
 import forbes from './reconocimiento-forbes-blanco.png';
 import gifted from './reconocimiento-gifted-citizen-blanco.png';
 import redbox from './reconocimiento-redbox-blanco.png';
+import {Link} from 'react-router-dom';
+
 
 class Footer extends Component{
 
@@ -103,7 +105,7 @@ class Footer extends Component{
                         <p>® 2018 Dev.F. All rights reserved.</p>
                     </div>
                     <div className="col-md-6 col-lg-6 text-right">
-                        <a href="">Aviso de Privacidad </a> | <a href="">Términos y Condiciones</a>
+                        <Link to="/privacidad">Aviso de Privacidad </Link> | <Link to="/terminos">Términos y Condiciones</Link>
                     </div>
                 </div>
 
