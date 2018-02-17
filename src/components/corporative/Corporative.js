@@ -15,7 +15,7 @@ class Corporative extends Component {
             <div>
                 <Contact/>
                 <Navbar/>
-                <Header title={"CORPORATIVOS"} text={"“El software se esta comiendo al mundo”  y el sector privado necesita " +
+                <Header title={"CORPORATIVOS"} text={"“El software se está comiendo al mundo”  y el sector privado necesita " +
                 "más talento que nunca en las áreas de TI y programación. "} />
 
                 <div className="container-fluid">

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76da062e-21fd-4ecd-89d4-43ca637e1c52" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/components/FAQ/FAQ.js" afterPath="$PROJECT_DIR$/src/components/FAQ/FAQ.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/corporative/Corporative.js" afterPath="$PROJECT_DIR$/src/components/corporative/Corporative.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/corporative/goals/Goals.js" afterPath="$PROJECT_DIR$/src/components/corporative/goals/Goals.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,12 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AcademicTeam.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/people/academic/AcademicTeam.js">
+      <file leaf-file-name="Corporative.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/corporative/Corporative.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            <state relative-caret-position="135">
+              <caret line="18" column="79" lean-forward="true" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Goals.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/corporative/goals/Goals.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="53" column="107" lean-forward="false" selection-start-line="53" selection-start-column="107" selection-end-line="53" selection-end-column="107" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,7 +91,6 @@
         <option value="$PROJECT_DIR$/src/components/home/city/content-city/cita-card/style.css" />
         <option value="$PROJECT_DIR$/src/components/home/city/direction/style.css" />
         <option value="$PROJECT_DIR$/src/components/people/done/donecard/DoneCard.js" />
-        <option value="$PROJECT_DIR$/src/components/corporative/goals/Goals.js" />
         <option value="$PROJECT_DIR$/src/components/corporative/quotes/Quotes.js" />
         <option value="$PROJECT_DIR$/src/components/community/comunidad-data.js" />
         <option value="$PROJECT_DIR$/src/components/ROI/numbers/Numbers.js" />
@@ -97,7 +108,6 @@
         <option value="$PROJECT_DIR$/src/components/people/done/style.css" />
         <option value="$PROJECT_DIR$/src/components/people/People.js" />
         <option value="$PROJECT_DIR$/src/components/methodology/Methodology.js" />
-        <option value="$PROJECT_DIR$/src/components/corporative/Corporative.js" />
         <option value="$PROJECT_DIR$/src/components/community/Community.js" />
         <option value="$PROJECT_DIR$/src/components/community/community-card/CommunityCard.js" />
         <option value="$PROJECT_DIR$/src/components/home/testimonials/Testimonials.js" />
@@ -123,6 +133,8 @@
         <option value="$PROJECT_DIR$/src/components/home/footer/Footer.js" />
         <option value="$PROJECT_DIR$/src/components/tyc/TYC.js" />
         <option value="$PROJECT_DIR$/src/components/FAQ/FAQ.js" />
+        <option value="$PROJECT_DIR$/src/components/corporative/Corporative.js" />
+        <option value="$PROJECT_DIR$/src/components/corporative/goals/Goals.js" />
       </list>
     </option>
   </component>
@@ -184,6 +196,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="corporative" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="corporative" type="462c0819:PsiDirectoryNode" />
+              <item name="goals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="corporative" type="462c0819:PsiDirectoryNode" />
+              <item name="quotes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -264,17 +292,18 @@
       <workItem from="1518651646410" duration="27320000" />
       <workItem from="1518828546686" duration="952000" />
       <workItem from="1518830370084" duration="1065000" />
-      <workItem from="1518832245801" duration="443000" />
+      <workItem from="1518832245801" duration="574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167118000" />
+    <option name="totallyTimeSpent" value="167249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3328125" sideWeight="0.48035714" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3328125" sideWeight="0.48035714" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -313,14 +342,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/ROI/numbers/Numbers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home/carousel/progam.jpg" />
     <entry file="file://$PROJECT_DIR$/src/components/home/video-head/Masthead.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">
@@ -459,13 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/corporative/Corporative.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -623,9 +637,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/people/academic/AcademicTeam.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        <state relative-caret-position="519">
+          <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/corporative/Corporative.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="79" lean-forward="true" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/corporative/quotes/Quotes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-496">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/corporative/goals/Goals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="53" column="107" lean-forward="false" selection-start-line="53" selection-start-column="107" selection-end-line="53" selection-end-column="107" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
