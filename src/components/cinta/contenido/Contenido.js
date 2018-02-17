@@ -55,7 +55,9 @@ class Contenido extends Component {
                                     </div>
                                     <div className="col-md-12 col-lg-12 pt-4">
                                         <p className="cinta-time">
-                                            Duración: 5 semanas | Inicia {this.props.precios.start} | Horario: de Lunes a Viernes de 7pm a 10pm
+                                            Duración: 5 semanas | Inicia {this.props.precios.start} | Horario: de Lunes a Viernes de {
+                                            (this.props.city === "mxsanta") ? "18:00 a 21:00 hrs." : "19:00 a 22:00 hrs."
+                                        }
                                         </p>
                                     </div>
 

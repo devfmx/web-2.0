@@ -45,14 +45,14 @@ class Cities extends  Component {
              <section className="bg-light-devf text-center">
                  <div className="container-fluid container-cities">
                      <div className="row">
-                         <div className="col-md-9 col-lg-12">
+                         <div className="col-md-12 col-lg-12 text-center">
                              <h2 className="sedes-title">Seleciona tu  Escuela</h2>
 
                              <p>Todos nuestros cursos son presenciales. Nos encontramos en las siguientes ciudades:</p>
                          </div>
                      </div>
-                     <div className="row">
-                         <div className="col-md-12 col-lg-12">
+                     <div className="row content-justify-center">
+                         <div className="col-md-12 col-lg-12 text-center">
 
                              {cities}
                          </div>

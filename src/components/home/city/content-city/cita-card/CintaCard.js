@@ -13,7 +13,7 @@ class CintaCard extends Component{
 
     render(){
 
-        let level = "Programa para principiantes";
+        let level = "Programa para Principiantes";
 
         if(this.props.level == 0) {
             level = "Intro a data Science"
@@ -44,7 +44,7 @@ class CintaCard extends Component{
                                     <p className="cinta-text">{this.props.text}</p>
                                 </div>
                             </div>
-                            <a href="https://pagos.devf.mx" className="btn btn-cinta">Inscribete</a>
+                            <a href="https://pagos.devf.mx" className="btn btn-cinta">Inscríbete</a>
                         </div>
                 </div>
 
