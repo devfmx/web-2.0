@@ -51,7 +51,7 @@ class Goals extends Component {
                                 </ul>
                             </div>
                             <div className="col-md-11 col-lg-11 info-div text-justify">
-                                Para más información de estos y otros servicios contacta a Orly en <a
+                                Para más información de estos y otros servicios contacta a Orly Goldsmith en <a
                                 href="mailto:empresas@devf.mx">empresas@devf.mx</a>
                             </div>
                         </div>
