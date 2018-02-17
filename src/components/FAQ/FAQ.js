@@ -46,7 +46,7 @@ class FAQ extends Component {
 
 
                                 <Collapsible trigger="¿Qué se ve en Cinta Roja?">
-                                    <p>Es un programa de nivel intermedio y se requiere entregar un exámen diagnóstico para participar en el programa. Necesitas tener experiencia en CSS, html y conocimientos de programación orientada a objetos con JavaScript.</p>
+                                    <p>Es un programa de nivel intermedio y se requiere entregar un exámen diagnóstico para participar en el programa. Necesitas tener experiencia en CSS, HTML y conocimientos de programación orientada a objetos con JavaScript.</p>
                                     <p>En Cinta Roja se aprende a crear una aplicación web que esté conectada a una base de datos. El estudiante comienza a ver fundamentos de ciencias computacionales como algoritmos, estructuras de datos, arquitecturas cliente - servidor, entre otros temas.</p>
                                 </Collapsible>
 
@@ -60,14 +60,10 @@ class FAQ extends Component {
                                 </Collapsible>
 
                                 <Collapsible trigger="No sé si entrar a Cinta Roja o a Cinta Negra.">
-                                    <p>En nuestra página principal puedes encontrar un pequeño examen para evaluar si necesitas tomar cinta roja o cinta negra.  Si después de este todavía no estás seguro te tenemos varias alternativas: </p>
+                                    <p>En nuestra página principal puedes encontrar un pequeño examen para evaluar si necesitas tomar cinta roja o cinta negra.  Si después de este todavía no estás seguro/a te tenemos varias alternativas: </p>
                                     <p>1. Regístrate para la cinta que sientas que te queda mejor, el primer día haremos un examen diagnóstico en el que evaluaremos más a profundidad tus competencias y te recomendaremos si es mejor para ti estar en otro nivel.</p>
-                                    <p>2. Todos nuestros programas cuestan lo mismo y son a la misma hora, así que si en tus primeras clases sientes que el nivel que estás es el equivocado, te puedes cambiar a otra cinta.</p>
+                                    <p>2. Todos nuestros programas tienen el mismo precio y son a la misma hora, así que si en tus primeras clases sientes que el nivel que estás no es el adecuado, te puedes cambiar a otra cinta.</p>
                                     <p>3. Escríbenos a hola@devf.mx o a nuestro chat para que te pongamos en contacto con alguno de nuestros Senseis.</p>
-                                </Collapsible>
-
-                                <Collapsible trigger="¿Me dan algún reconocimiento al final?">
-                                    <p>Cuando terminas el programa te otorgamos un diploma que certifica la terminación completa y exitosa del programa educativo. Para recibir este diploma el estudiante tiene que asistir como mínimo al 80% de las sesiones.</p>
                                 </Collapsible>
 
                                 <Collapsible trigger="¿Me dan algún reconocimiento al final?">
@@ -102,6 +98,7 @@ class FAQ extends Component {
                                 </p>
                             </Collapsible>
                             <Collapsible trigger="¿Tienen clases los fines de semana?">
+                                <p>No ofrecemos clases los fines de semana por el momento.</p>
                                 <p>Las Cintas Blanca, Roja y Negra duran 5 semanas y las clases son de lunes a viernes
                                     de 7:00pm a 10:00pm.</p>
                                 <p>
@@ -114,7 +111,12 @@ class FAQ extends Component {
                                     Por el momento contamos con cursos en la Ciudad de México
                                     (Col. Roma y Santa Fe) y Guadalajara. Sin embargo estaremos
                                     abriendo sedes en otras ciudades durante el año. Si quieres que vayamos a tu
-                                    ciudad por favor déjanos los datos aquí (https://devf.typeform.com/to/ZP8xrk).
+                                    ciudad por favor déjanos los datos <a href="https://devf.typeform.com/to/ZP8xrk">aquí.</a>
+
+
+
+
+
 
 
                                 </p>
@@ -122,9 +124,8 @@ class FAQ extends Component {
 
                             <Collapsible trigger="¿Tienen todos los programas en todas las sedes?">
                                 <p>
-                                    No, en cada sede tenemos distintos programas. Por favor consulta la sede aquí para
-                                    ver qué programas ofrecemos ahí.
-
+                                    No, en cada sede tenemos distintos programas. Por favor consulta tu sede <a href="https://devf.mx/">aquí </a>
+                                    para ver qué programas ofrecemos.
                                 </p>
                             </Collapsible>
 
@@ -152,16 +153,16 @@ class FAQ extends Component {
                             <Collapsible trigger="¿El costo del programa incluye IVA?">
                                 <p>Sí, todos nuestros precios ya incluyen IVA.</p>
                             </Collapsible>
-                            <Collapsible trigger="¿Me pueden dar factura?">
+                            <Collapsible trigger="¿Me pueden generar una factura?">
                                 <p>
                                     Sí, en cuanto tu pago quede registrado (nos ayuda mucho que nos envíes tu comprobante de pago)
                                     mándanos tus datos y nosotros te generamos tu factura lo más pronto posible.
                                 </p>
                             </Collapsible>
-                            <Collapsible trigger="¿Me pueden dar factura?">
+                            <Collapsible trigger="¿Puedo tener algún beneficio o descuento si pago las 3 Cintas en una sola exhibición?">
                                 <p>
-                                    Sí, tenemos un paquete en el que puedes pagar Cinta Blanca, Roja y Negra al mismo
-                                    tiempo. Así te puedes ahorrar 30% del precio.
+                                    Sí, tenemos un paquete en el que puedes pagar Cinta Blanca, Roja y Negra al mismo tiempo. Así te puedes ahorrar 30% del precio.
+
                                 </p>
                             </Collapsible>
                         </div>
@@ -180,7 +181,7 @@ class FAQ extends Component {
                                <p>
                                    La solicitud a nuestras becas se encuentran aquí. Es un cuestionario que personas
                                    interesadas deben de llenar hasta el sábado antes de que comience el Batch.
-                                   Es importante indicar que las becas funcionan como concurso, ya que es mucho mayor
+                                   Es importante indicar que las becas funcionan como concurso, ya que es mucho mayor la
                                    cantidad de aplicantes que las becas que podemos ofrecer por ahora, así que el aplicar
                                    para una beca no garantiza que la vayas a obtener. De todos modos te recomendamos que
                                    te prepares como si sí la fueras a obtener, para que en caso de una respuesta favorable,
@@ -238,22 +239,22 @@ class FAQ extends Component {
 
                     <div className="row justify-content-center mt-5">
                         <div className="col-md-10 col-lg-10 text-justify">
-                            <Collapsible trigger="Batch:">
+                            <Collapsible trigger="Batch">
                                 <p>
-                                    Cada una de las generaciones de estudiantes que se lanzan en Dev.f
-                                    cada 5 semanas. Un batch incluye cada uno de los grupos
-                                    de los diferentes programas educativos (Cinta Blanca, Roja y Negra,
-                                    así como Executive Hacker, UX Ninja e Intro a Data Science, si están activos en esa sede).
+                                    Es como llamamos a una generación en Dev.f. Por ejemplo Batch 18 significa
+                                    Generación 18.  Un batch incluye cada uno de los grupos de los diferentes programas
+                                    educativos activos en cada sede (Cinta Blanca, Roja y Negra, así como Executive
+                                    Hacker, UX Ninja e Intro a Data Science).
 
                                 </p>
                             </Collapsible>
-                            <Collapsible trigger="Batch Master:">
+                            <Collapsible trigger="Batch Master">
                                 <p>
                                     Es la persona responsable de que la experiencia de Dev.f sea la mejor posible en cada batch.
                                     Generalmente es algún o alguna Sensei o alguien del equipo operativo de Dev.f.
                                 </p>
                             </Collapsible>
-                            <Collapsible trigger="Code Hacker:">
+                            <Collapsible trigger="Code Hacker">
                                 <p>
                                     Son los programas educativos de Dev.f que tienen que ver con aprender programación
                                     y desarrollo de Software, las Cintas Blanca, Roja y Negra.
@@ -261,7 +262,7 @@ class FAQ extends Component {
                                 </p>
                             </Collapsible>
 
-                            <Collapsible trigger="Cinta:">
+                            <Collapsible trigger="Cinta">
                                 <p>
                                     Dev.f no funciona como una escuela tradicional, sino más bien
                                     como un dojo de artes marciales. Por lo mismo, llamamos a nuestros
@@ -272,40 +273,38 @@ class FAQ extends Component {
                             </Collapsible>
 
 
-                            <Collapsible trigger="Día 0:">
+                            <Collapsible trigger="Día 0">
                                 <p>
-                                    Es el primer día de un nuevo batch en Dev.f.
-                                    Aprovechamos este día para dar una pequeña inducción
-                                    sobre cómo funciona Dev.f, para resolver dudas de las y los
-                                    nuevos estudiantes y para que se empiecen a conocer todas las personas participantes.
-
-
+                                    Es el primer día de un nuevo batch en Dev.f. Aprovechamos este día para
+                                    dar una pequeña inducción sobre cómo funciona Dev.f, para resolver dudas de
+                                    las y los nuevos estudiantes y para que se empiecen a conocer todos los
+                                    participantes.
                                 </p>
                             </Collapsible>
 
 
-                            <Collapsible trigger="Early Bird:">
+                            <Collapsible trigger="Early Bird">
                                 <p>
-                                    The Early Bird catches the  worm, dice el dicho. Es la promoción que ofrecemos a
+                                    The Early Bird catches the worm, dice el dicho. Es la promoción que ofrecemos a
                                     personas que se anticipan con su inscripción a nuestros programas educativos.
-                                    Revisa nuestras fechas para enterarte de cuándo habrá promoción Early Bird.
+                                    Revisa nuestras fechas para enterarte cuando habrá promoción Early Bird.
+
                                 </p>
                             </Collapsible>
 
 
                             <Collapsible trigger="Hackathon">
                                 <p>
-                                    Es una competencia en la cual el objetivo es resolver un problema de la forma
-                                    más ingeniosa, ágil y creativa posible, generalmente usando tecnología.
+                                    Es una competencia en la cual el objetivo es resolver un problema de la forma más
+                                    ingeniosa, ágil y creativa posible, generalmente usando tecnología.
                                     Parece magia, pero pasa que en un hackathon a veces se crea tecnología que
                                     genuinamente resuelve una problemática o necesidad en tan sólo un par de días.
-                                    Por esto amamos los hackathons y por todo lo que se aprende en ellos sobre desarrollo
-                                    de nuevos productos tecnológicos.
-
+                                    Por esto, y por todo lo que se aprende en ellos sobre desarrollo de nuevos
+                                    productos tecnológicos, amamos los hackathons.
                                 </p>
                             </Collapsible>
 
-                            <Collapsible trigger="Hacker:">
+                            <Collapsible trigger="Hacker">
                                 <p>
                                     Nuestra definición (que coincide con la de lugares como MIT o Silicon Valley):
                                     una persona con curiosidad intelectual, quien no se conforma con sólo observar
@@ -316,16 +315,15 @@ class FAQ extends Component {
                             </Collapsible>
 
 
-                            <Collapsible trigger="Sensei:">
+                            <Collapsible trigger="Sensei">
                                 <p>
-                                    Es cada uno de los instructores en Dev.f. Un Sensei no es un profesor,
-                                    sino más bien un o una guía que te acompaña en tu largo camino de aprendizaje,
-                                    compartiendo contigo sus experiencias, sus conocimientos y su amistad.
-
+                                    Instructores en Dev.f. Un Sensei no es un profesor, sino más bien un guía que te
+                                    acompaña en el camino de aprendizaje, compartiendo contigo sus experiencias, sus
+                                    conocimientos y amistad.
                                 </p>
                             </Collapsible>
 
-                            <Collapsible trigger="Startup Hacker:">
+                            <Collapsible trigger="Startup Hacker">
                                 <p>
                                     Son nuestros programas educativos que tienen que ver más con desarrollo
                                     de nuevos productos de software y no tanto con programación.
