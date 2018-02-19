@@ -34,6 +34,7 @@ class Cities extends  Component {
                           cityId={i}
                           cityObject={this.state.cities[key]}
                           imagenUrl={this.state.cities[key].img}
+                          idDiv={this.state.cities[key].slug}
                 />
             );
 

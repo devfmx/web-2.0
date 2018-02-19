@@ -33,7 +33,7 @@ class CityCard extends  Component {
         const bounce = !this.state.isHovered ? "bounce-devf" : "";
         return(
 
-            <div className="card cardStyle" onClick={this.onSelect} onMouseEnter={this.onHovered} onMouseLeave={this.onHovered}>
+            <div className="card cardStyle" onClick={this.onSelect} onMouseEnter={this.onHovered} onMouseLeave={this.onHovered} id={this.props.idDiv}>
                 <img className="card-img-top card-photo" src={this.props.imagenUrl} alt="Card image cap"/>
                 <div className="card-img-overlay">
                     <h4>{this.props.city.split(" ")[0]}</h4>
