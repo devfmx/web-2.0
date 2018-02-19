@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './style.css';
 import CardCinta  from './cita-card/CintaCard'
-
+import Number from 'react-number-format';
 
 
 
@@ -46,7 +46,10 @@ class ContentCity extends  Component{
                 </div>
                 <div className="row text-center">
                      <div className="col-md-12 col-lg-12 text-center sede-prices">
-                         <p>Todos nuestros cursos cuestan <span>${this.props.city.price}.</span> MXN ó <span>$999</span> pagando a 12 meses sin intereses con promoción Early Bird</p>
+                         <p>Todos nuestros cursos cuestan <span>  <Number
+                                                         value={parseInt(this.props.city.price)} displayType={'text'}
+                                                         thousandSeparator={true} prefix={'$'} /></span> MXN ó <span>$999</span>
+                                                        pagando a 12 meses sin intereses con promoción Early Bird</p>
                      </div>
                 </div>
                 <div className="row justify-content-center">
