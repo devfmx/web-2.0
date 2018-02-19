@@ -22,8 +22,10 @@ class Footer extends Component{
                         </div>
                         <div className="row row-mision">
                             <div className="col-md-12 div col-lg-12">
-                               <p>Dev.f existe para acelerar el desarrollo socio-económico de América Latina a
-                                   través de educación de tecnología de alta calidad, de forma incluyente y accesible.
+                               <p>Dev.f existe para acelerar el desarrollo socio-económico de América Latina a través de educación de alta calidad
+                                   en tecnología , de forma incluyente y accesible.
+
+
                                </p>
 
                             </div>
@@ -52,20 +54,20 @@ class Footer extends Component{
                         <div className="row">
                             <div className="col-md-12 col-lg-12 text-center">
                                 <img src={forbes} alt=""/>
-                                <p>Reconocidos por Forbes como una de las 30 empresas sociales promesa de México</p>
+                                <p>Reconocidos por Forbes como una de las 30 empresas sociales promesa de México.</p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-md-12 col-lg-12 text-center">
                                 <img src={gifted} alt="" style={{width:"50%"}}/>
                                 <p>Premiados por la Ciudad de las Ideas con el
-                                    reconocimiento internacional Gifted Citizen</p>
+                                    reconocimiento internacional Gifted Citizen.</p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-md-12 col-lg-12 text-center">
                                 <img src={redbox} alt="" style={{width:"50%"}} />
-                                <p>Reconocidos con el Premio Redbox como la Startup mas Innovadora de México en el 2017</p>
+                                <p>Reconocidos con el Premio Redbox como la Startup mas Innovadora de México en el 2017.</p>
                             </div>
                         </div>
 

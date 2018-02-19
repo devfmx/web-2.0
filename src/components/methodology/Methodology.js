@@ -19,9 +19,18 @@ class Methodology extends Component {
                 <Navbar/>
                 <Header title={"METODOLOGÍA"} text={"La educación más útil es aquella que te da las herramientas para " +
                 "que puedas constantemente aprender y participar en: 1) temas para los que eres bueno/a, 2) que te apasionan," +
-                " 3) puedes sostenerte económicamente de ellos. Idealmente todo esto se mezcla con algún problema o " +
-                "necesidad que tenga el mundo."}/>
+                " 3) puedes sostenerte económicamente de ellos. " +
+                "Para muchos, idealmente estas herramientas están vinculadas a resolver un problema o necesidad que tenga el mundo. "}/>
                     <div className="container-fluid">
+                        <div className="row div-figure pt-5 justify-content-center">
+                            <div className="col-md-10 col-lg-10 text-center" >
+                                <p style={{fontSize:"20px"}}>En Dev.f hemos observado (a través de experiencia propia) que esta educación es aquella
+                                    que pasa por un proceso cognitivo y experimental descrito a continuación.
+                                    Este proceso, mezclado con Senseis (instructores) y contenido de alta calidad y relevancia,
+                                    es el que buscamos emular en nuestros programas: </p>
+                            </div>
+                        </div>
+
                         <div className="row div-figure pt-5">
                             <div className="col-md-12 col-lg-12 text-center">
                                 <img src={hexagono} alt=""/>
@@ -32,7 +41,7 @@ class Methodology extends Component {
                             <div className="col-md-10 col-lg-10 text-justify">
                                 <ol className="ol-topics">
                                     <li>
-                                        <h5>Exposición(Exposure):</h5>
+                                        <h5>Exposición (Exposure):</h5>
                                         <p>
 
                                             Participas en eventos, comunidades, clases, etc. en temas que no conocías. Empiezas a pensar que no eres el/la único/a loco/a y te nace un interés de involucrarte más.
@@ -47,7 +56,7 @@ class Methodology extends Component {
                                     </li>
                                     <li>
                                         <h5>
-                                            Esto es lo mío(A-ha Moment!):
+                                            Esto es lo mío (A-ha Moment!):
                                         </h5>
                                         <p>
                                             Te emocionas y te empiezas a involucrar. La energía para hacerlo nace de un interés personal genuino.
@@ -55,7 +64,7 @@ class Methodology extends Component {
                                     </li>
                                     <li>
                                         <h5>
-                                            Iniciativa(Resoucefulness):
+                                            Iniciativa (Resoucefulness):
                                         </h5>
                                         <p>
 
@@ -67,7 +76,7 @@ class Methodology extends Component {
                                     </li>
                                     <li>
                                         <h5>
-                                            Redes(Network):
+                                            Redes (Network):
                                         </h5>
                                         <p>
                                             Te involucras con redes y empresas con las que puedes trabajar y crecer. Te vuelves parte del movimiento y tu red crece de manera natural.
@@ -89,14 +98,7 @@ class Methodology extends Component {
                             </div>
                         </div>
 
-                        <div className="row div-figure pt-5 justify-content-center">
-                            <div className="col-md-10 col-lg-10 text-center">
-                                <p>En Dev.f hemos observado (a través de experiencia propia) que esta educación es aquella
-                                    que pasa por un proceso cognitivo y experimental descrito a continuación.
-                                    Este proceso, mezclado con Senseis (instructores) y contenido de alta calidad y relevancia,
-                                    es el que buscamos emular en nuestros programas: </p>
-                            </div>
-                        </div>
+
 
 
                     </div>

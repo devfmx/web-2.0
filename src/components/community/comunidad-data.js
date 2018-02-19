@@ -6,12 +6,12 @@ export default  () => {
             name:"Ruth Gómez Hidalgo",
             job:"Telmex",
             text:"Desde un principio lo ví como una inversión, me la jugué y al final me " +
-            "retornó muchísimo. conocimiento, experiencias, amigos y 4 veces mi sueldo original"
+            "retornó muchísimo: conocimiento, experiencias, amigos y 4 veces mi sueldo original."
         },
         {
             name:"José Gustavo Meoño",
             job:"Facultad de Medicina UNAM/AMIR México.",
-            text:"Dev.f cumple perfectamente con su función de ser una Des-escuela. Como persona que trabaja directamente en el ámbito escolar, el mayor beneficio que tuve de Dev.f fue el cambio de actitud y de la forma de pensar al momento de trabajar, codear, educar y vivir. Un excelente lugar para obtener conocimientos, pero una aún mayor oportunidad para desarrollarte como persona"
+            text:"Dev.f cumple perfectamente con su función de ser una Des-escuela. Como persona que trabaja directamente en el ámbito escolar, el mayor beneficio que tuve de Dev.f fue el cambio de actitud y de la forma de pensar al momento de trabajar, codear, educar y vivir. Un excelente lugar para obtener conocimientos, pero una aún mayor oportunidad para desarrollarte como persona."
         },
         {
             name:"Diego Solórzano",
@@ -21,7 +21,7 @@ export default  () => {
         {
             name:"Ana Karen Ramirez",
             job:"Co-Founder Epic Queen",
-            text:"íDev.f. me ayudó a que más niñas y mujeres de México vean que ellas pueden crear tecnología en vez de consumirla. "
+            text:"Dev.f. me ayudó a que más niñas y mujeres de México vean que ellas pueden crear tecnología en vez de consumirla. "
         },
         {
             name:"Germán Sánchez Vázquez",
@@ -31,7 +31,7 @@ export default  () => {
         {
             name:"Noel Delgado",
             job:"tagRank",
-            text:"Dev.f me ayudó a armar el MVP para mi startup y aparte conseguí que un compañero se uniera a mi equipo"
+            text:"Dev.f me ayudó a armar el MVP para mi startup y aparte conseguí que un compañero se uniera a mi equipo."
         },
         {
             name:"Axel Vazquez",
@@ -39,13 +39,13 @@ export default  () => {
             text:"Dev.f, \"La des-escuela de hackers\", sin duda, más que un grupo de personas que venden cursos, son una comunidad íntegra que se esmera día con día por ayudar a las personas no solo a adquirir conocimientos prácticos, si no, a \"desarrollar personas\" con una visión de mejora para el bienestar de la sociedad. "
         },
         {
-            name:"Julián Lechuga López,",
+            name:"Julián Lechuga López",
             job:"HAL",
             text:"Dev.f es una puerta grandota al mundo del desarrollo de la tecnología en México. Una vez que entraste no vuelves a salir. "
         },
         {
             name:"David Zonana",
-            job:"fundador de consultora y desarrolladora de software que colabora con una agencia de MKT digital.",
+            job:"Fundador de una consultora y desarrolladora de software que colabora con una agencia de MKT digital.",
             text:"Dev.f fue un punto de inflección en mi carrera, aprendí cómo funciona la tecnología de una manera muy diferente. Si no hubiera entrado a Dev.f seguramente no estaría trabajando en tecnología. "
         },{
             name:"Danton Sandoval",
@@ -74,11 +74,11 @@ export default  () => {
             name:"Oscar Sanchez Maciel",
             job:"UNAM",
             text:"Más que una escuela, Dev.f es un lugar de desarrollo y crecimiento personal donde gente como tú o como y" +
-            "o podemos dar forma a nuestras ideas junto a una gran comunidad… "
+            "o podemos dar forma a nuestras ideas junto a una gran comunidad "
         },{
             name:"Shantidevi Galvan",
             job:"Tec de Monterrey",
-            text:"Una experiencia con la última información en el sector que llevó en poco tiempo de cero a cien"
+            text:"Una experiencia con la última información en el sector que llevó en poco tiempo de cero a cien."
         }
 
     ]

@@ -10,7 +10,7 @@ class Path extends Component {
             <div className="path-sec ">
                 <div className="row">
                     <div className="col-md-12 col-lg-12 text-center">
-                        <h3>Recorre el Camino de Código en <strong>Dev.f</strong> con nuestros diferentes cursos en todos los niveles </h3>
+                        <h3>Recorre el Camino de Código en <strong>Dev.f</strong> con nuestros diferentes cursos en todos los niveles. </h3>
                     </div>
                 </div>
                 <div className="row">
@@ -36,7 +36,7 @@ class Path extends Component {
                     </div>
                     <div className="col-md-12 col-lg-12 text-center mt-3 ">
                         <p style={{color:"#000000",fontSize:"20px"}}>
-                            Obtendrás el <strong>10%</strong> de descuento en la Cinta Roja y un <strong>20% </strong>
+                            Al cursar los tres programas obtendrás el <strong>10%</strong> de descuento en la Cinta Roja y un <strong>20% </strong>
                              en la Cinta Negra cuando vayas a pagarlas.</p>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ class Path extends Component {
                     </div>
                     <div className="col-md-12 col-lg-12 text-center">
                         <p style={{color:"#000000",fontSize:"20px"}}>
-                            Esto representa una inversión total de <strong>$40,500 pesos </strong>
+                            Esto representa una inversión total de <strong>$40,500 pesos. </strong>
                         </p>
                     </div>
                     <div className="col-md-8 col-lg-8 text-center">

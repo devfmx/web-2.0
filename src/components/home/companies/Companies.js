@@ -29,7 +29,7 @@ class Companies extends Component{
 
               <div className="row" style={{marginTop:"1.0rem"}}>
                   <div className="col-md-12 col-lg-12 text-center">
-                      <h3 className="title-companies">¡Y más de 200 empresas y startups increíbles!</h3>
+                      <h3 className="title-companies">¡Y más de 200 empresas y startups líderes de la industria!</h3>
                   </div>
 
               </div>

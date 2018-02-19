@@ -7,13 +7,13 @@ class Numbers extends Component {
             <div>
                 <div className="row numbers-div justify-content-center" style={{backgroundColor:"#311C33"}}>
                     <div className="col-md-1 col-lg-1 text-center mx-auto">
-                        <p><span className="number-span">20</span> veces más <span className="loop-span">barato</span></p>
+                        <p><span className="number-span">20</span> <br/> veces más <span className="loop-span">barato</span></p>
                     </div>
                     <div className="col-md-1 col-lg-1 text-center mx-auto">
-                        <p><span className="number-span">8</span> veces más <span className="loop-span">rápido</span></p>
+                        <p><span className="number-span">8</span> <br/>veces más <span className="loop-span">rápido</span></p>
                     </div>
                     <div className="col-md-1 col-lg-1 text-center mx-auto">
-                        <p><span className="number-span">&infin;</span> veces más <span className="loop-span">hacker</span></p>
+                        <p><span className="number-span">&infin;</span> <br/>veces más <span className="loop-span">hacker</span></p>
                     </div>
                 </div>
 
@@ -27,7 +27,7 @@ class Numbers extends Component {
                             de nuestros graduados de cintas avanzadas que buscan trabajo lo obtienen en un promedio de 3 meses),
                             estarás recuperando tu inversión en menos de 6 meses. Justamente ésta es la razón por
                             la que Dev.f está hackeando la educación, siendo 20x más barato y 8x más rápido que los programas
-                            de educación tradicionales. Nuestro modelo implica una tasa de recuperación de la inversión que nos
+                            de educación tradicionales. <br/> Nuestro modelo implica una tasa de recuperación de la inversión que nos
                             ha posicionado como una de las empresas sociales más innovadoras de México.
                         </p>
                     </div>

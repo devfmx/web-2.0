@@ -21,7 +21,7 @@ class DoneTeam extends Component {
             <section className="done-sec">
                 <div className="row">
                     <div className="col-md-12 col-lg-12 text-center">
-                        <h3>Get Shit Done team</h3>
+                        <h3>Get Shit Done Team</h3>
                     </div>
                 </div>
                 <div className="row">
@@ -51,11 +51,10 @@ class DoneTeam extends Component {
 
                     <div className="col-md-4 col-lg-4 mb-4 ">
                         <DoneCard face={images['equipo-orly.jpg']} fullname={"Orly Goldsmith"}
-                                  biography={"Graduada de London School of Economics and Political " +
-                                  "Science, Orly tiene un especial interés por la inclusión educativa " +
-                                  "así como la vinculación de talento, habiendo trabajado en organizaciones " +
-                                  "como el Institute of International Education, la Organización Internacional " +
-                                  "del Trabajo y Empleos Verdes"}
+                                  biography={"Graduada de London School of Economics and Political Science, " +
+                                  "Orly tiene un especial interés por la inclusión educativa así como la vinculación de talento." +
+                                  " Ha trabajado en organizaciones como el Institute of International Education, " +
+                                  "la Organización Internacional del Trabajo y Empleos Verdes.\n"}
                                   />
                     </div>
 
