@@ -53,6 +53,7 @@ class Cinta extends Component {
                                    img={this.state.cinta.img}
                                    precios={this.state.precios}
                                    city={this.props.match.params.city}
+                                   program={this.props.match.params.program}
                         />
 
 

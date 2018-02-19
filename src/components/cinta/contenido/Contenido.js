@@ -43,7 +43,9 @@ class Contenido extends Component {
                                             {temas}
                                         </ul>
                                     </div>
-                                    <div className="col-md-12 col-lg-12 text-center pb-3 pt-3" style={{borderBottom:"solid #F9F9F9 2px"}}>
+
+                                    {/*
+                                        <div className="col-md-12 col-lg-12 text-center pb-3 pt-3" style={{borderBottom:"solid #F9F9F9 2px"}}>
                                         <p className="info-text">
                                             Nuestra metodologia Hacker Path se divide en 2 etapas generales: Una primera etapa de Fundamentos teoricos
                                             (Teoria+Practica) y la segunda etapa de Creacion de producto (100% hands on) por
@@ -53,9 +55,14 @@ class Contenido extends Component {
 
                                         </p>
                                     </div>
+
+                                    */}
+
                                     <div className="col-md-12 col-lg-12 pt-4">
                                         <p className="cinta-time">
-                                            Duración: 5 semanas | Inicia {this.props.precios.start} | Horario: de Lunes a Viernes de {
+                                            Duración: 5 semanas | Inicia {this.props.precios.start} | Horario:
+                                            { (this.props.program === "4") ? "Lunes y Miércoles " : (this.props.program === "5") ? "Martes y Jueves " : "Lunes a Viernes "  }
+                                            de {
                                             (this.props.city === "mxsanta") ? "18:00 a 21:00 hrs." : "19:00 a 22:00 hrs."
                                         }
                                         </p>
