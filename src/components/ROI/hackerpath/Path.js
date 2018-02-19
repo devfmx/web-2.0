@@ -8,16 +8,13 @@ class Path extends Component {
     render() {
         return (
             <div className="path-sec ">
-                <div className="row">
-                    <div className="col-md-12 col-lg-12 text-center">
-                        <h3>Recorre el Camino de Código en <strong>Dev.f</strong> con nuestros diferentes cursos en todos los niveles. </h3>
+                <div className="row justify-content-center">
+                    <div className="col-md-9 col-lg-9 text-center">
+                        <h3>Aprende a programar desde cero <strong>(Cinta Blanca)</strong>, únete a un programa más avanzado <strong>(Cinta Roja o Negra)</strong>, o
+                            recorre todo el camino <strong>(desde Cinta Blanca hasta Cinta Negra)</strong> en <strong>Dev.f</strong> con nuestros diferentes cursos de programación. </h3>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-md-12 col-lg-12 text-center">
-                        <p>(Cinta Blanca, Cinta Roja y Cinta Negra)</p>
-                    </div>
-                </div>
+
                 <div className="row justify-content-center mt-4">
                     <div className="col-md-2 col-lg-3 text-center">
                         <img src={blanca} className="rounded-circle" alt=""/>
@@ -36,8 +33,8 @@ class Path extends Component {
                     </div>
                     <div className="col-md-12 col-lg-12 text-center mt-3 ">
                         <p style={{color:"#000000",fontSize:"20px"}}>
-                            Al cursar los tres programas obtendrás el <strong>10%</strong> de descuento en la Cinta Roja y un <strong>20% </strong>
-                             en la Cinta Negra cuando vayas a pagarlas.</p>
+                            Al cursar los tres programas obtendrás  <strong>10%</strong> de descuento en Cinta Roja y  <strong>20% </strong>
+                             en Cinta Negra.</p>
                     </div>
                 </div>
                 <div className="row mt-4 justify-content-center pb-5" style={{backgroundColor:"#F9F9F9"}}>
@@ -53,7 +50,7 @@ class Path extends Component {
                     </div>
                     <div className="col-md-8 col-lg-8 text-center">
                         <p style={{color:"#A69DA7",fontSize:"16px"}}>
-                            (esto equivale a menos de un solo semestre de las principales universidades privadas).
+                            (Esto equivale a menos de un solo semestre de las principales universidades privadas).
                             Además puedes diferirlo a meses sin intereses.
                         </p>
                     </div>

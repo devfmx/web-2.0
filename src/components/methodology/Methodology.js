@@ -85,12 +85,12 @@ class Methodology extends Component {
                                     </li>
                                     <li>
                                         <h5>
-                                            Empodramiento:
+                                            Empoderamiento:
                                         </h5>
 
                                         <p>
 
-                                            Te vuelves el modelo a seguir. Empiezas tu empresa. Consigues un trabajo que te encanta. Sigues aprendiendo.Transformas tu entorno y el de personas cercanas que te rodean.
+                                            Te vuelves el modelo a seguir.  Empiezas tu empresa.  Consigues un trabajo que te encanta. Sigues aprendiendo. Transformas tu entorno y el de personas cercanas que te rodean.
 
                                         </p>
                                     </li>

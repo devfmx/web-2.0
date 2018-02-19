@@ -34,7 +34,7 @@ class Navbar  extends  Component {
 
                             </li>
                             <li className="nav-item">
-                                <Link to="/corporativos" className="nav-link link-nav" href="#">Corporativos</Link>
+                                <Link to="/empresas" className="nav-link link-nav" href="#">Empresas</Link>
                             </li>
                             <li className="nav-item" style={{marginTop:"5px"}}>
                                 <a className="nav-link btn btn-buy" href="https://pagos.devf.mx/" >Inscríbete</a>

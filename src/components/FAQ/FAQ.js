@@ -13,6 +13,7 @@ import Footer from '../home/footer/Footer';
 class FAQ extends Component {
     render() {
         return (
+            //TODO agregar links a descripcion
             <div>
                 <Contact/>
                 <Navbar/>
@@ -36,12 +37,11 @@ class FAQ extends Component {
                                         <p>
                                             Tenemos cuatro programas que pueden cursar personas sin experiencia en programación:
                                             Cinta Blanca, Executive Hacker, Intro a Data Science y UX Ninja.
-                                            (Integrar links a la descripción de cada programa).
                                         </p>
                                 </Collapsible>
 
                                 <Collapsible trigger="¿Qué se ve en Cinta Blanca?">
-                                    <p>En Cinta Blanca aprendemos los conceptos fundamentales de cómo funciona la programación orientada a objetos.</p>
+                                    <p>Si no tienes idea de cómo programar o  cómo  realizar un sitio web estático esta es tu cinta.</p>
                                 </Collapsible>
 
 
@@ -56,11 +56,11 @@ class FAQ extends Component {
                                 </Collapsible>
 
                                 <Collapsible trigger="¿Cuál es la diferencia entre Executive Hacker y Cinta Blanca?">
-                                    <p>El programa Cinta Blanca está dirigido a personas que quieran entender el mundo del internet y de la programación desde el punto de vista de un programador; es decir, van a aprender los fundamentos prácticos para poder desarrollar habilidades o una carrera como programadores. En Executive Hacker los participantes entienden el mundo de internet y la programación pero desde la perspectiva de un profesional que trabaja de cerca (o quiere estar cerca) con tecnología, programadores o temas de innovación.</p>
+                                    <p>El programa Cinta Blanca está dirigido a personas que quieran entender el mundo del internet y de la programación desde el punto de vista de un programador; es decir, El estudiante va aprender los fundamentos prácticos para poder desarrollar habilidades o una carrera como programadores. En Executive Hacker los participantes entienden el mundo de internet y la programación pero desde la perspectiva de un profesional que trabaja de cerca (o quiere estar cerca) con tecnología, programadores o temas de innovación.</p>
                                 </Collapsible>
 
-                                <Collapsible trigger="No sé si entrar a Cinta Roja o a Cinta Negra.">
-                                    <p>En nuestra página principal puedes encontrar un pequeño examen para evaluar si necesitas tomar cinta roja o cinta negra.  Si después de este todavía no estás seguro/a te tenemos varias alternativas: </p>
+                                <Collapsible trigger="¿Debo entrar a Cinta Roja o a Cinta Negra.?">
+                                    <p> </p>
                                     <p>1. Regístrate para la cinta que sientas que te queda mejor, el primer día haremos un examen diagnóstico en el que evaluaremos más a profundidad tus competencias y te recomendaremos si es mejor para ti estar en otro nivel.</p>
                                     <p>2. Todos nuestros programas tienen el mismo precio y son a la misma hora, así que si en tus primeras clases sientes que el nivel que estás no es el adecuado, te puedes cambiar a otra cinta.</p>
                                     <p>3. Escríbenos a hola@devf.mx o a nuestro chat para que te pongamos en contacto con alguno de nuestros Senseis.</p>
@@ -89,7 +89,7 @@ class FAQ extends Component {
                     <div className="row justify-content-center mt-5">
                         <div className="col-md-10 col-lg-10">
                             <Collapsible trigger="¿Tienen programas en línea?">
-                                <p>No, por el momento todos nuestros programas son presenciales</p>
+                                <p>No, por el momento todos nuestros programas son presenciales.</p>
                             </Collapsible>
                             <Collapsible trigger="¿Tienen programas en las mañanas?">
                                 <p>
@@ -97,27 +97,26 @@ class FAQ extends Component {
                                     o trabaja pueda asistir.
                                 </p>
                             </Collapsible>
+                            <Collapsible trigger="¿Cuáles son los horarios de clases?">
+                            <p>CDMX Roma-Condesa y Guadalajara: 19:00 hrs. a 22:00 hrs.</p>
+                            <p>CDMX Santa Fe: 18:00 hrs. a 21:00 hrs.</p>
+                            </Collapsible>
+
+                            <Collapsible trigger="¿Todas las clases son de Lunes a  Viernes?">
+                                <p>Las Cintas Blanca, Roja y Negra duran 5 semanas y las clases son de Lunes a Viernes.</p>
+                                <p>Los programas Executive Hacker, UX y Data Science también duran 5 semanas,
+                                    pero son únicamente dos días a la semana.</p>
+                            </Collapsible>
+
                             <Collapsible trigger="¿Tienen clases los fines de semana?">
                                 <p>No ofrecemos clases los fines de semana por el momento.</p>
-                                <p>Las Cintas Blanca, Roja y Negra duran 5 semanas y las clases son de lunes a viernes
-                                    de 7:00pm a 10:00pm.</p>
-                                <p>
-                                    Los programas Executive Hacker, UX y Data Science también duran 5 semanas,
-                                    pero son únicamente dos días a la semana de 7:00pm a 10:00pm.
-                                </p>
                             </Collapsible>
                             <Collapsible trigger="¿Tienen clases en mi ciudad?">
                                 <p>
                                     Por el momento contamos con cursos en la Ciudad de México
                                     (Col. Roma y Santa Fe) y Guadalajara. Sin embargo estaremos
                                     abriendo sedes en otras ciudades durante el año. Si quieres que vayamos a tu
-                                    ciudad por favor déjanos los datos <a href="https://devf.typeform.com/to/ZP8xrk">aquí.</a>
-
-
-
-
-
-
+                                    ciudad por favor déjanos tus datos <a href="https://devf.typeform.com/to/ZP8xrk">aquí.</a>
 
                                 </p>
                             </Collapsible>
@@ -192,17 +191,17 @@ class FAQ extends Component {
                             <Collapsible trigger="¿Qué requisitos necesito para aplicar a una beca?">
                                 <p>
                                     No tenemos requisitos específicos. Sin embargo los aplicantes deben de explicar
-                                    por qué necesitan la beca, para qué quieren aprovechar su aprendizaje,
-                                    y se deben de comprometer a: terminar y a aprovechar mucho el programa,
+                                    por qué necesitan la beca y para qué quieren aprovechar su aprendizaje. También
+                                    se deben de comprometer a: terminar y a aprovechar mucho el programa,
                                     pagar el % del programa que no reciban de beca y responder a encuestas/entrevistas
-                                    de seguimiento después de que termine el programa.
+                                    de seguimiento durante y después de que termine el programa.
 
                                 </p>
                             </Collapsible>
                             <Collapsible trigger="¿Todas las becas son iguales?">
                                 <p>
                                     No. Varias empresas son patrocinadoras de algunas de las becas y cada empresa tiene
-                                    la alternativa de tener criterios específicos para sus becas.
+                                    la alternativa de establecer criterios específicos para sus becas.
                                     Estos criterios son comunicados en las convocatorias para que quienes aplican estén
                                     al tanto de estas particularidades.
                                 </p>
@@ -211,14 +210,14 @@ class FAQ extends Component {
                             <Collapsible trigger="¿Cuánto cubre la beca?">
                                 <p>
                                     Las becas pueden cubrir 25%, 50% o 75% del precio del programa.
-                                    Cuando se otorga la beca a un candidato se le informa de la cantidad de beca que recibió.
+                                    Cuando se otorga la beca a un candidato se le informa el porcentaje de beca que recibió.
                                 </p>
                             </Collapsible>
 
                             <Collapsible trigger="¿Seguro me toca beca?">
                                 <p>
                                     Muchas personas solicitan a becas para nuestros programas,
-                                    por lo que no podemos otorgar becas a todos, solo a los candidatos
+                                    por lo que no podemos otorgar becas a todos solo a los candidatos
                                     con las mejores aplicaciones.
 
                                 </p>
@@ -243,8 +242,7 @@ class FAQ extends Component {
                                 <p>
                                     Es como llamamos a una generación en Dev.f. Por ejemplo Batch 18 significa
                                     Generación 18.  Un batch incluye cada uno de los grupos de los diferentes programas
-                                    educativos activos en cada sede (Cinta Blanca, Roja y Negra, así como Executive
-                                    Hacker, UX Ninja e Intro a Data Science).
+                                    educativos activos en cada sede.
 
                                 </p>
                             </Collapsible>
@@ -323,16 +321,7 @@ class FAQ extends Component {
                                 </p>
                             </Collapsible>
 
-                            <Collapsible trigger="Startup Hacker">
-                                <p>
-                                    Son nuestros programas educativos que tienen que ver más con desarrollo
-                                    de nuevos productos de software y no tanto con programación.
-                                    Quien los cursa no busca convertirse en programador o desarrollador de software,
-                                    sino más bien obtener herramientas para poder participar en la creación de un nuevo
-                                    producto o servicio digital. Los programas de Startup Hacker incluyen Executive Hacker,
-                                    UX Ninja e Intro a Data Science.
-                                </p>
-                            </Collapsible>
+
 
                         </div>
                     </div>

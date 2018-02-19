@@ -23,7 +23,7 @@ class Footer extends Component{
                         <div className="row row-mision">
                             <div className="col-md-12 div col-lg-12">
                                <p>Dev.f existe para acelerar el desarrollo socio-económico de América Latina a través de educación de alta calidad
-                                   en tecnología , de forma incluyente y accesible.
+                                   en tecnología, de forma incluyente y accesible.
 
 
                                </p>
@@ -39,7 +39,7 @@ class Footer extends Component{
                         </div>
                         <div className="row pb-4" >
                             <div className="col-md-12 col-lg-12 mt-2">
-                                <form className="form-inline">
+                                <form className="form-inline" action="https://devf.us11.list-manage.com/subscribe/post?u=960de7edff11b92b1ab928662&amp;id=fc0f4406f4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"  target="_blank" novalidate>
 
                                     <div className="form-group mx-sm-0 mb-0">
                                         <input type="email" className="form-control input-news" id="email"

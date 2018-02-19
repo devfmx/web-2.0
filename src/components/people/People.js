@@ -17,7 +17,7 @@ class People extends Component {
           <Navbar/>
           <Header title={"SOMOS"} text={["Nuestro equipo se integra de líderes y expertos que están cambiando la cara de " +
           "México desde la trinchera tecnológica. Todos tenemos una pasión en común: el empoderamiento " +
-          "de las personas a través de la educación.", <br/>,"Aquí un poco del pasado del equipo antes de haberse integrado a Dev.f:  "]
+          "de las personas a través de la educación.", <br/>, <br/>,"Conoce al equipo detrás de  Dev.f:"]
           }/>
 
           <div className="container-fluid">

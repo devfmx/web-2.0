@@ -16,7 +16,7 @@ class Goals extends Component {
                             laborales. </p>
                         <div className="row justify-content-center second-goals pb-3">
                             <div className="col-md-11 col-lg-11 pt-4 text-justify">
-                                <p> Los servicios que actualmente tenemos con empresas están descritos abajo.
+                                <p> Los servicios que actualmente tenemos con empresas están descritos a continuación.
                                     Si no encuentras lo que requieres escríbenos directamente.</p>
                             </div>
                             <div className="col-md-11 col-lg-11 text-justify">

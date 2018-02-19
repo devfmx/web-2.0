@@ -37,7 +37,7 @@ class App extends Component {
                 <Route path="/metodologia" component={Metodology}/>
                 <Route path="/comunidad" component={Community}/>
                 <Route path="/faq" component={FAQ}/>
-                <Route path="/corporativos" component={Corporative}/>
+                <Route path="/empresas" component={Corporative}/>
                 <Route path="/cinta/:city/:program" component={Cinta}/>
                 <Route path="/privacidad" component={Privacidad}/>
                 <Route path="/terminos" component={TYC}/>

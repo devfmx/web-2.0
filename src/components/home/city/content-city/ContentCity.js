@@ -48,8 +48,8 @@ class ContentCity extends  Component{
                      <div className="col-md-12 col-lg-12 text-center sede-prices">
                          <p>Todos nuestros cursos cuestan <span>  <Number
                                                          value={parseInt(this.props.city.price)} displayType={'text'}
-                                                         thousandSeparator={true} prefix={'$'} /></span> MXN ó <span>$999</span>
-                                                        pagando a 12 meses sin intereses con promoción Early Bird</p>
+                                                         thousandSeparator={true} prefix={'$'} /></span> MXN ó <span>$999 </span>
+                                                        pagando a 12 meses sin intereses con promoción Early Bird.</p>
                      </div>
                 </div>
                 <div className="row justify-content-center">

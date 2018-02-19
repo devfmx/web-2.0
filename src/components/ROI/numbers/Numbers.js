@@ -32,7 +32,7 @@ class Numbers extends Component {
                         </p>
                     </div>
                     <div className="col-md-12 col-lg-12 text-center mt-3">
-                        <h4>Dev.f está hackeando la educación</h4>
+                        <h4>Dev.f está hackeando la educación.</h4>
                     </div>
                 </div>
 

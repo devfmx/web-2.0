@@ -30,7 +30,7 @@ class DoneTeam extends Component {
                     </div>
                     <div className="col-md-8 col-lg-8 text-center" style={{marginTop:"2.5rem"}}>
                         <p>Responsables de áreas operativas y actividades relacionadas con tecnología, marketing y
-                            otros procesos que requiere Dev.f para lograr nuestra misión.
+                            otros procesos que requerimos para lograr nuestra misión.
                         </p>
                     </div>
                     <div className="col-md-2 col-lg-2">
@@ -51,7 +51,7 @@ class DoneTeam extends Component {
 
                     <div className="col-md-4 col-lg-4 mb-4 ">
                         <DoneCard face={images['equipo-orly.jpg']} fullname={"Orly Goldsmith"}
-                                  biography={"Graduada de London School of Economics and Political Science, " +
+                                  biography={"Graduada de LSE, " +
                                   "Orly tiene un especial interés por la inclusión educativa así como la vinculación de talento." +
                                   " Ha trabajado en organizaciones como el Institute of International Education, " +
                                   "la Organización Internacional del Trabajo y Empleos Verdes.\n"}
@@ -61,7 +61,7 @@ class DoneTeam extends Component {
                     <div className="col-md-4 col-lg-4 mb-4">
                         <DoneCard face={images['equipo-brian-chico.jpg']} fullname={"Brian Ortiz"}
                                   biography={"Además de ser un apasionado diseñador, Brian estudió el programa de UX " +
-                                  "en Dev.f y actualmente está encargado de que toda la logística de nuestros espacios " +
+                                  "en Dev.f y actualmente está encargado de  la logística de nuestros espacios " +
                                   "para que las clases puedan darse con la magia necesaria. "}
                                   />
                     </div>
@@ -92,7 +92,7 @@ class DoneTeam extends Component {
                     <div className="col-md-4 col-lg-4 mb-4">
                         <DoneCard face={images['equipo-noe.jpg']} fullname={"Noé Luna"}
                                   biography={"Apasionado por la natación y el deporte extremo, Noé siempre busca cumplir " +
-                                  "nuevos retos. De igual manera en el ámbito laboral, Graduado de la Universidad de Essex " +
+                                  "nuevos retos. Graduado de la Universidad de Essex " +
                                   "en Inglaterra, Noé es un profesional del Marketing y las relaciones entre clientes y empresas."}
                         />
                     </div>

@@ -13,7 +13,7 @@ class AcademicTeam extends Component{
         super(props)
         const  perfiles = [
             {name:"Enrique Díaz",img:k,bio:"Reconocido como Google Developer Expert y co-fundador de “Androidtitlan” " +
-            "la comunidad de desarrolladores Android mas grande del mundo de habla hispana. \n" },
+            "la comunidad de desarrolladores Android más grande del mundo de habla hispana. \n" },
             {name:"Manuel Morató", img:e,bio:"Cercano al ecosistema hacker en México, “Eme” trabajó en BizDev en " +
             "Silicon Valley y Corea del Sur, así como en etapas tempranas de Codeando México y Kueski.\n"},
             {name:"Brian Salomaki", img:b,bio:"Estudió Symbolic Systems en la Universidad de Stanford y trabajó durante " +
