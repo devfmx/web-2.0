@@ -5,6 +5,16 @@ import './style.css';
 
 class CintaTest extends Component {
 
+    constructor(props){
+        super(props);
+
+        this.handleGameActive = this.handleGameActive.bind(this);
+    }
+
+    handleGameActive(e){
+        this.props.gameActive()
+    }
+
 
     render() {
 
@@ -13,7 +23,7 @@ class CintaTest extends Component {
                 <div className="col-md-12 col-lg-12 text-center test-block">
                     <p>
                         <i className="fa fa-question-circle"></i> ¿Cuál es el curso indicado para mí?
-                        <a href="" className="btn btn-test">Saber más</a>
+                        <button onClick={this.handleGameActive} className="btn btn-test">Saber más</button>
                     </p>
                 </div>
             </div>
