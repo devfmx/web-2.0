@@ -2,6 +2,13 @@ import React, {Component} from 'react';
 import './style.css'
 import LevelOne from './LevelOne';
 import LevelTwo from './LevelTwo';
+import LevelThree from './LevelThree';
+import LevelFour from './LevelFour';
+import Result from './Result';
+
+
+
+
 
 
 
@@ -11,31 +18,22 @@ class Game extends Component {
         super(props);
 
         this.state = {
-          optionOne:0,
-          optionTwo:0,
-          selectLevel:true,
+
+          selectLevel:1,
         };
 
-        this.selectOption = this.selectOption.bind(this);
-        this.selectOption = this.selectOptionTwo.bind(this);
+        this.selectLevel = this.selectLevel.bind(this);
     }
 
-    selectOption(option) {
+
+
+    selectLevel(option){
         console.log(option);
         this.setState({
-            optionOne:option,
-            selectLevel:!this.state.selectLevel
-        })
-
-    }
-
-    selectOptionTwo(option){
-        console.log(option);
-        this.setState({
-            optionTwo:option,
-            selectLevel:!this.state.selectLevel
+            selectLevel:option
         })
     }
+
 
 
     render() {
@@ -48,8 +46,15 @@ class Game extends Component {
                 </div>
 
                 {
-                    (this.state.selectLevel) ? <LevelOne selectOption={this.selectOption} /> :
-                        <LevelTwo selectOptionTwo={this.selectOptionTwo}/>
+                    (this.state.selectLevel === 1) ?
+                        <LevelOne selectLevel={this.selectLevel} /> :
+                        (this.state.selectLevel === 2) ?
+                        <LevelTwo selectLevel={this.selectLevel}/>:
+                            (this.state.selectLevel === 9) ?
+                            <LevelThree selectLevel={this.selectLevel} />:
+                                (this.state.selectLevel === 13) ?
+                                <LevelFour selectLevel={this.selectLevel} />:
+                                    <Result level={this.state.selectLevel} selectLevel={this.selectLevel}/>
                 }
 
 

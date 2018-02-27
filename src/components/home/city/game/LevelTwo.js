@@ -41,7 +41,7 @@ class LevelTwo extends Component {
 
 
     handleClick(element){
-        this.props.selectOptionTwo(element)
+        this.props.selectLevel(element)
     }
 
 
@@ -50,45 +50,45 @@ class LevelTwo extends Component {
         return (
             <div className="row row-level-one  justify-content-center animated slideInRight">
                 <div className="col-md-2 col-lg-2 option-test"
-                     onMouseEnter={() => {this.hoverOn(1)}}
+                     onMouseEnter={() => {this.hoverOn(7)}}
                      onMouseLeave={this.hoverOff}
-                     onClick={() => {this.handleClick(1) }}
+                     onClick={() => {this.handleClick(7) }}
                 >
                     <img src={images['icono-nivel-07.png']} alt=""
-                         className={(this.state.hover && this.state.element===1)?"animated tada infinite":""}
+                         className={(this.state.hover && this.state.element===7)?"animated tada infinite":""}
                     />
                     <span>Quiero entender el mundo de la tecnologia para liderar equipos aunque yo no sea tecnico</span>
                 </div>
                 <div className="col-md-2 col-lg-2 text-center option-test"
-                     onMouseEnter={() => {this.hoverOn(2)}}
+                     onMouseEnter={() => {this.hoverOn(8)}}
                      onMouseLeave={this.hoverOff}
-                     onClick={() => {this.handleClick(2) }}
+                     onClick={() => {this.handleClick(8) }}
                 >
-                    <img src={images['icono-nivel-08.png']} alt="" className={(this.state.hover && this.state.element===2)?"animated tada infinite":""}/>
+                    <img src={images['icono-nivel-08.png']} alt="" className={(this.state.hover && this.state.element===8)?"animated tada infinite":""}/>
                     <span>Quiero aprender a programar desde cero</span>
                 </div>
                 <div className="col-md-2 col-lg-2 text-center option-test"
-                     onMouseEnter={() => {this.hoverOn(3)}}
+                     onMouseEnter={() => {this.hoverOn(9)}}
                      onMouseLeave={this.hoverOff}
-                     onClick={() => {this.handleClick(3) }}
+                     onClick={() => {this.handleClick(9) }}
                 >
-                    <img src={images['icono-nivel-09.png']} alt="" className={(this.state.hover && this.state.element===3)?"animated tada infinite":""}/>
+                    <img src={images['icono-nivel-09.png']} alt="" className={(this.state.hover && this.state.element===9)?"animated tada infinite":""}/>
                     <span>Quiero mejorar mis habilidades de programacion</span>
                 </div>
                 <div className="col-md-2 col-lg-2 text-center option-test"
-                     onMouseEnter={() => {this.hoverOn(4)}}
+                     onMouseEnter={() => {this.hoverOn(10)}}
                      onMouseLeave={this.hoverOff}
-                     onClick={() => {this.handleClick(4) }}
+                     onClick={() => {this.handleClick(10) }}
                 >
-                    <img src={images['icono-nivel-10.png']} alt="" className={(this.state.hover && this.state.element===4)?"animated tada infinite":""}/>
+                    <img src={images['icono-nivel-10.png']} alt="" className={(this.state.hover && this.state.element===10)?"animated tada infinite":""}/>
                     <span>Quiero diseñar productos tecnologicos entendiendo a mis usuarios</span>
                 </div>
                 <div className="col-md-2 col-lg-2 text-center option-test"
-                     onMouseEnter={() => {this.hoverOn(5)}}
+                     onMouseEnter={() => {this.hoverOn(11)}}
                      onMouseLeave={this.hoverOff}
-                     onClick={() => {this.handleClick(5) }}
+                     onClick={() => {this.handleClick(11) }}
                 >
-                    <img src={images['icono-nivel-11.png']} alt="" className={(this.state.hover && this.state.element===5)?"animated tada infinite":""}/>
+                    <img src={images['icono-nivel-11.png']} alt="" className={(this.state.hover && this.state.element===11)?"animated tada infinite":""}/>
                     <span>Quiero encontrar patrones de comportamiento en un set de datos</span>
                 </div>
             </div>

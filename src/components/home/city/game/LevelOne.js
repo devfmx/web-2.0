@@ -40,8 +40,8 @@ class LevelOne extends Component {
     }
 
 
-    handleClick(element){
-        this.props.selectOption(element)
+    handleClick(){
+        this.props.selectLevel(2)
     }
 
 
@@ -52,7 +52,7 @@ class LevelOne extends Component {
                 <div className="col-md-2 col-lg-2 option-test"
                      onMouseEnter={() => {this.hoverOn(1)}}
                      onMouseLeave={this.hoverOff}
-                     onClick={() => {this.handleClick(1) }}
+                     onClick={this.handleClick}
                 >
                     <img src={images['icono-nivel-01.png']} alt=""
                          className={(this.state.hover && this.state.element===1)?"animated tada infinite":""}
@@ -62,7 +62,7 @@ class LevelOne extends Component {
                 <div className="col-md-2 col-lg-2 text-center option-test"
                      onMouseEnter={() => {this.hoverOn(2)}}
                      onMouseLeave={this.hoverOff}
-                     onClick={() => {this.handleClick(2) }}
+                     onClick={this.handleClick}
                 >
                     <img src={images['icono-nivel-02.png']} alt="" className={(this.state.hover && this.state.element===2)?"animated tada infinite":""}/>
                     <span>Quiero Crecer en mi trabajo actual</span>
@@ -70,7 +70,7 @@ class LevelOne extends Component {
                 <div className="col-md-2 col-lg-2 text-center option-test"
                      onMouseEnter={() => {this.hoverOn(3)}}
                      onMouseLeave={this.hoverOff}
-                     onClick={() => {this.handleClick(3) }}
+                     onClick={this.handleClick}
                 >
                     <img src={images['icono-nivel-03.png']} alt="" className={(this.state.hover && this.state.element===3)?"animated tada infinite":""}/>
                     <span>Quiero Cambiarme de Trabajo</span>
@@ -78,7 +78,7 @@ class LevelOne extends Component {
                 <div className="col-md-2 col-lg-2 text-center option-test"
                      onMouseEnter={() => {this.hoverOn(4)}}
                      onMouseLeave={this.hoverOff}
-                     onClick={() => {this.handleClick(4) }}
+                     onClick={this.handleClick}
                 >
                     <img src={images['icono-nivel-04.png']} alt="" className={(this.state.hover && this.state.element===4)?"animated tada infinite":""}/>
                     <span>Quiero Emprender en mi propio Startup</span>
@@ -86,7 +86,7 @@ class LevelOne extends Component {
                 <div className="col-md-2 col-lg-2 text-center option-test"
                      onMouseEnter={() => {this.hoverOn(5)}}
                      onMouseLeave={this.hoverOff}
-                     onClick={() => {this.handleClick(5) }}
+                     onClick={this.handleClick}
                 >
                     <img src={images['icono-nivel-05.png']} alt="" className={(this.state.hover && this.state.element===5)?"animated tada infinite":""}/>
                     <span>Quiero Integrarme a la comunidad hacker de dev.f</span>
@@ -94,7 +94,7 @@ class LevelOne extends Component {
                 <div className="col-md-2 col-lg-2 text-center option-test"
                      onMouseEnter={() => {this.hoverOn(6)}}
                      onMouseLeave={this.hoverOff}
-                     onClick={() => {this.handleClick(6) }}
+                     onClick={this.handleClick}
                 >
                     <img src={images['icono-nivel-06.png']} alt="" className={(this.state.hover && this.state.element===6)?"animated tada infinite":""}/>
                     <span>Quiero aprender una nueva habilidad porque #nerd</span>

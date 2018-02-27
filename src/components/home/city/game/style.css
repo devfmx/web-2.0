@@ -12,3 +12,22 @@
 .option-test{
     cursor: pointer;
 }
+
+
+.btn-game {
+    width: 70% !important;
+    font-size: 16px !important;
+    border-radius: 3px !important;
+}
+
+
+.row-result img {
+    width: 40%;
+}
+
+.row-result span {
+    display: block;
+    font-size: 20px;
+    color: #252525;
+    margin-top: 0.5rem;
+}
