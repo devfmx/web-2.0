@@ -160,8 +160,7 @@ class FAQ extends Component {
                             </Collapsible>
                             <Collapsible trigger="¿Puedo tener algún beneficio o descuento si pago las 3 Cintas en una sola exhibición?">
                                 <p>
-                                    Sí, tenemos un paquete en el que puedes pagar Cinta Blanca, Roja y Negra al mismo tiempo. Así te puedes ahorrar 30% del precio.
-
+                                    Si, al pagar las Cintas Blanca, Roja y Negra al mismo tiempo, automáticamente recibes 20% en las Roja y la Negra. Esto te da un total de $39,000 por los tres programas.
                                 </p>
                             </Collapsible>
                         </div>
@@ -176,6 +175,14 @@ class FAQ extends Component {
 
                     <div className="row justify-content-center mt-5">
                         <div className="col-md-10 col-lg-10 text-justify">
+                            <Collapsible trigger="¿Tienen becas disponibles en cada Batch?">
+                                <p>
+                                    No, a pesar de que hacemos un esfuerzo para siempre tener becas, estas dependen
+                                    de los fondos que tengamos disponibles de empresas independientes a nosotros
+                                    (i.e. Beca Facebook). Por lo que no podemos garantizar que las tengamos en cada Batch.
+                                </p>
+                            </Collapsible>
+
                             <Collapsible trigger="¿Cómo puedo aplicar a una beca?">
                                <p>
                                    La solicitud a nuestras becas se encuentran aquí. Es un cuestionario que personas
@@ -183,7 +190,7 @@ class FAQ extends Component {
                                    Es importante indicar que las becas funcionan como concurso, ya que es mucho mayor la
                                    cantidad de aplicantes que las becas que podemos ofrecer por ahora, así que el aplicar
                                    para una beca no garantiza que la vayas a obtener. De todos modos te recomendamos que
-                                   te prepares como si sí la fueras a obtener, para que en caso de una respuesta favorable,
+                                   te prepares como  sí la fueras a obtener, para que en caso de una respuesta favorable,
                                    puedas incorporarte al programa educativo.
 
                                </p>
