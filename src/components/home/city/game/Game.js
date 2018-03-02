@@ -39,23 +39,30 @@ class Game extends Component {
     render() {
         return (
             <div>
-                <div className="row justify-content-center">
-                    <div className="col-md-10 col-lg-10 text-center mb-5">
+                <div className="row justify-content-center mt-5">
+                    <div className="col-md-10 col-lg-10 text-center mb-2">
                         <h3>¡Elije la opción con la que te sientas mas identificado!</h3>
                     </div>
                 </div>
 
-                {
-                    (this.state.selectLevel === 1) ?
-                        <LevelOne selectLevel={this.selectLevel} /> :
-                        (this.state.selectLevel === 2) ?
-                        <LevelTwo selectLevel={this.selectLevel}/>:
-                            (this.state.selectLevel === 9) ?
-                            <LevelThree selectLevel={this.selectLevel} />:
-                                (this.state.selectLevel === 13) ?
-                                <LevelFour selectLevel={this.selectLevel} />:
-                                    <Result level={this.state.selectLevel} selectLevel={this.selectLevel}/>
-                }
+                <div className="row  justify-content-center mb-5">
+                    <div className="col-md-10 col-lg-10">
+                        {
+                            (this.state.selectLevel === 1) ?
+                                <LevelOne selectLevel={this.selectLevel} /> :
+                                (this.state.selectLevel === 2) ?
+                                    <LevelTwo selectLevel={this.selectLevel}/>:
+                                    (this.state.selectLevel === 9) ?
+                                        <LevelThree selectLevel={this.selectLevel} />:
+                                        (this.state.selectLevel === 13) ?
+                                            <LevelFour selectLevel={this.selectLevel} />:
+                                            <Result level={this.state.selectLevel} selectLevel={this.selectLevel}/>
+                        }
+
+
+                    </div>
+                </div>
+
 
 
             </div>

@@ -64,15 +64,13 @@ class LevelFour extends Component {
 
                 <div className="col-md-12 col-lg-12">
                     <div className="row justify-content-center mt-4">
-                        <div className="col-md-1 col-lg-1 mt-1">
-                            <button className="btn btn-buy btn-game" onClick={() => {this.handleClick(14)}}>SI</button>
+                        <div className="col-md-1 col-lg-1 mt-1 ">
+                            <button className="btn btn-buy btn-game text-center" onClick={() => {this.handleClick(14)}}>SI</button>
                         </div>
-                        <div className="col-md-1 col-lg-1 mt-1">
-                            <button className="btn btn-buy btn-game" onClick={() => {this.handleClick(15)}}>NO</button>
+                            <button className="btn btn-buy btn-game text-center" onClick={() => {this.handleClick(15)}}>NO</button>
                         </div>
                     </div>
                 </div>
-            </div>
         );
     }
 }

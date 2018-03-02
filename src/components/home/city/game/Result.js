@@ -47,13 +47,25 @@ class Result extends Component {
 
     render() {
         return (
-            <div className="row row-result  justify-content-center animated slideInRight">
+            <div className="row row-result  justify-content-center animated fadeIn">
                 <div className="col-md-10 col-lg-10 text-center">
-                    <img src={this.state.results[this.props.level].image} alt=""
-                        className="rounded-circle"
-                    />
-                    <span>Tu mejor opción es {this.state.results[this.props.level].name}</span>
+                    <h4 style={{color:"#7B2781", fontSize:"22px"}}>Esta es tu mejor opción:</h4>
+                </div>
+                <div className="col-md-4 col-lg-4">
+                    <div className="card cinta-card" style={{height:"18rem"}}>
+                        <div className="row">
+                            <div className="col-md-12 col-lg-12 ">
+                                <a href={this.state.results[this.props.level].url} className="cinta-detalle float-right">Ver detalle</a>
+                            </div>
+                        </div>
 
+                        <img className="card-img-top rounded-circle cinta-imagen" src={this.state.results[this.props.level].image} alt="Card image cap"/>
+                        <div className="card-body">
+                            <h5 className="card-title cinta-title mb-2">{this.state.results[this.props.level].name}</h5>
+
+                            <a href="https://pagos.devf.mx" className="btn btn-cinta">Inscríbete</a>
+                        </div>
+                    </div>
 
                 </div>
             </div>

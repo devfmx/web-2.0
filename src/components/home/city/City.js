@@ -32,9 +32,9 @@ class City extends  Component {
                 <div className="container-fluid">
                     <Discount dvalue={this.props.cityO.discount.value} dcode={this.props.cityO.discount.coupon}/>
                     <Content city={this.props.cityO} ref="cinta"/>
+                    <Direction loc={this.props.cityO.Location}/>
                     <Test  gameActive={this.activateGame}/>
                     {(this.state.gameActive)? <Game/> : <div></div>}
-                    <Direction loc={this.props.cityO.Location}/>
                 </div>
             </section>
         );
