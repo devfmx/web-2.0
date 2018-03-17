@@ -10,7 +10,7 @@ class ContactBar extends Component {
         return(
             <div className="row contact-bar pb-2 pt-2">
                 <div className="col-md-2 col-lg-2 contact-text text-right">
-                    <span><i className="fa fa-phone"></i>&nbsp;55-4046-6299</span>
+                    <span><i className="fa fa-phone"></i>&nbsp;55-3670-1339</span>
                 </div>
                 <div className="col-md-2 col-lg-2 contact-text">
                     <span><i className="fa fa-envelope "></i> &nbsp;hola@devf.mx</span>

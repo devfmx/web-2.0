@@ -183,53 +183,6 @@ class FAQ extends Component {
                                 </p>
                             </Collapsible>
 
-                            <Collapsible trigger="¿Cómo puedo aplicar a una beca?">
-                               <p>
-                                   La solicitud a nuestras becas se encuentran aquí. Es un cuestionario que personas
-                                   interesadas deben de llenar hasta el sábado antes de que comience el Batch.
-                                   Es importante indicar que las becas funcionan como concurso, ya que es mucho mayor la
-                                   cantidad de aplicantes que las becas que podemos ofrecer por ahora, así que el aplicar
-                                   para una beca no garantiza que la vayas a obtener. De todos modos te recomendamos que
-                                   te prepares como  sí la fueras a obtener, para que en caso de una respuesta favorable,
-                                   puedas incorporarte al programa educativo.
-
-                               </p>
-                            </Collapsible>
-                            <Collapsible trigger="¿Qué requisitos necesito para aplicar a una beca?">
-                                <p>
-                                    No tenemos requisitos específicos. Sin embargo los aplicantes deben de explicar
-                                    por qué necesitan la beca y para qué quieren aprovechar su aprendizaje. También
-                                    se deben de comprometer a: terminar y a aprovechar mucho el programa,
-                                    pagar el % del programa que no reciban de beca y responder a encuestas/entrevistas
-                                    de seguimiento durante y después de que termine el programa.
-
-                                </p>
-                            </Collapsible>
-                            <Collapsible trigger="¿Todas las becas son iguales?">
-                                <p>
-                                    No. Varias empresas son patrocinadoras de algunas de las becas y cada empresa tiene
-                                    la alternativa de establecer criterios específicos para sus becas.
-                                    Estos criterios son comunicados en las convocatorias para que quienes aplican estén
-                                    al tanto de estas particularidades.
-                                </p>
-                            </Collapsible>
-
-                            <Collapsible trigger="¿Cuánto cubre la beca?">
-                                <p>
-                                    Las becas pueden cubrir 25%, 50% o 75% del precio del programa.
-                                    Cuando se otorga la beca a un candidato se le informa el porcentaje de beca que recibió.
-                                </p>
-                            </Collapsible>
-
-                            <Collapsible trigger="¿Seguro me toca beca?">
-                                <p>
-                                    Muchas personas solicitan a becas para nuestros programas,
-                                    por lo que no podemos otorgar becas a todos solo a los candidatos
-                                    con las mejores aplicaciones.
-
-                                </p>
-                            </Collapsible>
-
                         </div>
                     </div>
 

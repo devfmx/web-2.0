@@ -82,7 +82,7 @@ class Footer extends Component{
                             <div className="col-md-12 col-lg-12">
                                 <p> <i className="fa fa-map-marker"></i> Ciudad de México, sede Roma: Avenida Álvaro Obregón 168, Roma Norte,
                                     C.P. 06700, Ciudad de México. </p>
-                                <p><i className="fa fa-phone"></i> Teléfono: 55-4046-6299</p>
+                                <p><i className="fa fa-phone"></i> Teléfono: 55-3670-1339</p>
                                 <p><i className="fa fa-envelope"></i> E-mail: hola@devf.mx</p>
                                 <p><i className="fa fa-clock-o"></i> Horario: Lunes a viernes de 10:00 hrs a 19:00 hrs.</p>
                                 <div className="col-md-12 col-lg-12 social-container">
