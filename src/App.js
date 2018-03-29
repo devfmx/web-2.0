@@ -8,7 +8,6 @@ import Community from './components/community/Community';
 import FAQ from './components/FAQ/FAQ';
 import Corporative from './components/corporative/Corporative';
 import Cinta from './components/cinta/Cinta';
-import { ScrollContext } from 'react-router-scroll-4';
 import Privacidad from './components/privacidad/Privacidad';
 import TYC from './components/tyc/TYC';
 
@@ -29,7 +28,6 @@ class App extends Component {
 
      
           <Router>
-            <ScrollContext>
             <main>
                 <Route exact path="/" component={Home}/>
                 <Route path="/nosotros" component={People}/>
@@ -41,9 +39,10 @@ class App extends Component {
                 <Route path="/cinta/:city/:program" component={Cinta}/>
                 <Route path="/privacidad" component={Privacidad}/>
                 <Route path="/terminos" component={TYC}/>
+                <Route path='/becas2018' component={() => window.location = 'https://devf.typeform.com/to/LpZqcv'}/>
+
 
             </main>
-            </ScrollContext>
           </Router>
   
     );

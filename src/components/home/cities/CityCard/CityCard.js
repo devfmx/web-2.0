@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import prueba from './prueba.svg';
 import './style.css';
-import scrollToComponent from 'react-scroll-to-component';
-
+import {withRouter} from 'react-router-dom';
 
 
 class CityCard extends  Component {
@@ -24,9 +23,10 @@ class CityCard extends  Component {
     }
 
     onSelect(e){
-
         this.props.changeCity(this.props.city,this.props.cityId,this.props.cityObject);
-        setTimeout(function() { console.log(this.refs.cinta) }.bind(this), 1500);
+        let path = `/${this.props.cityObject.slug}`;
+        this.props.history.push(path);
+
     }
     //TODO on Selected add class
     render(){
@@ -53,4 +53,4 @@ class CityCard extends  Component {
 
 }
 
-export default CityCard;
+export default withRouter(CityCard);

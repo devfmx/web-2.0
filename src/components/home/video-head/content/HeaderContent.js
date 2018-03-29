@@ -19,10 +19,11 @@ class HeaderContent  extends  Component {
     }
 
     handleInterest(e){
-        var i = 10;
+        var i = 150;
         var int = setInterval(function() {
             window.scrollTo(0, i);
             i += 25;
+
             if (i >= 580) clearInterval(int);
         }, 20);
 
