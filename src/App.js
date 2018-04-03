@@ -41,6 +41,7 @@ class App extends Component {
                 <Route path="/cinta/:city/:program" component={Cinta}/>
                 <Route path="/privacidad" component={Privacidad}/>
                 <Route path="/terminos" component={TYC}/>
+                <Route path='/becas2018' component={() => window.location = 'https://devf.typeform.com/to/LpZqcv'}/>
 
             </main>
             </ScrollContext>

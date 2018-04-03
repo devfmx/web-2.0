@@ -45,7 +45,7 @@ class Cinta extends Component {
                 <div>
                     <Contacto/>
                     <Navbar/>
-                    <Discount dvalue={this.state.precios.discount.cantidad} dcode={this.state.precios.discount.cupon}/>
+                    {/*<Discount dvalue={this.state.precios.discount.cantidad} dcode={this.state.precios.discount.cupon}/>*/}
                     <CintaHead programa={this.state.cinta.name}/>
                     <div className="container-fluid">
                         <Contenido objective={this.state.cinta.objetivo}
