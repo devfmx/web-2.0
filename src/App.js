@@ -11,11 +11,12 @@ import Cinta from './components/cinta/Cinta';
 import { ScrollContext } from 'react-router-scroll-4';
 import Privacidad from './components/privacidad/Privacidad';
 import TYC from './components/tyc/TYC';
+import Becas from './components/Becas';
 
 
 import {
   BrowserRouter as Router,
-  Route,
+  Route, Redirect
 
 } from 'react-router-dom'
 
@@ -41,7 +42,17 @@ class App extends Component {
                 <Route path="/cinta/:city/:program" component={Cinta}/>
                 <Route path="/privacidad" component={Privacidad}/>
                 <Route path="/terminos" component={TYC}/>
-                <Route path='/becas2018' component={() => window.location = 'https://devf.typeform.com/to/LpZqcv'}/>
+                <Route path='/becas2018' component={() => <Becas loc="https://devf.typeform.com/to/LpZqcv"/> } />
+                <Route path='/calendario' component={() => <Becas loc="https://goo.gl/q66pQu"/> } />
+                <Route path='/slackCDMX' component={() => <Becas loc="https://join.slack.com/t/devfb19cdmx/shared_invite/enQtMzQ0MDM1ODc1ODkzLTQ1MmNlMjU1ZjllZjkyOGZjODkwZTE5MWNkYTUxNzEwYzFkNDYxZGE5NmFhMGNjZDMyM2IwMTVkZTY4MjQ5NjA"/> } />
+                <Route path='/slackGDL' component={() => <Becas loc="https://join.slack.com/t/devfb2gdl/shared_invite/enQtMzQzODk5Njc0MjU4LWNhOTBkMzA3MmIyNzMwNmNiMTlhNzA4NDVhYjkzNTJjMGFjNTJkYzY4MjQ3N2JiMjc0Yjg0NmU4ZjMzMDMyM2Y"/> } />
+                <Route path='/feedback' component={() => <Becas loc="https://goo.gl/forms/UWrAR4vQTsBPLQrS2."/> } />
+                <Route path='/mentoria' component={() => <Becas loc="http://bit.ly/2oBI7Js"/> } />
+
+
+
+
+
 
             </main>
             </ScrollContext>
