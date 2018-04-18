@@ -24,15 +24,12 @@ class CityCard extends  Component {
     }
 
     onSelect(e){
-
         this.props.changeCity(this.props.city,this.props.cityId,this.props.cityObject);
-        setTimeout(function() { console.log(this.refs.cinta) }.bind(this), 1500);
     }
     //TODO on Selected add class
     render(){
         const bounce = !this.state.isHovered ? "bounce-devf" : "";
         return(
-
             <div className="card cardStyle" onClick={this.onSelect} onMouseEnter={this.onHovered} onMouseLeave={this.onHovered} id={this.props.idDiv}>
                 <img className="card-img-top card-photo" src={this.props.imagenUrl} alt="Card image cap"/>
                 <div className="card-img-overlay">

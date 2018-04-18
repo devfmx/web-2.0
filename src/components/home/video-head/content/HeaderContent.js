@@ -63,7 +63,7 @@ class HeaderContent  extends  Component {
 
                 <div className="row row-devf-b justify-content-center">
                     <div className="col-xl-3 col-lg-3 col-md-3 text-center">
-                       <button className="btn btn-devf" onClick={this.handleInterest}>Me interesa</button>
+                       <button className="btn btn-devf" onClick={this.handleInterest}>Ver cursos</button>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-3  text-center">
                         <button className="btn btn-devf-video" onClick={this.handleVideo}> <i className="fa fa-play"></i>&nbsp; Ver Video</button>
