@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import cinta from './programa-cinta-blanca.png';
+import Collapsible from 'react-collapsible';
+
 import './style.css';
 
 
@@ -16,10 +18,15 @@ class Contenido extends Component {
             return (<div></div>);
         }
         else{
-            let  temas = this.props.temas.map((tema) =>
-                <li>
-                    {tema}
-                </li>
+            let  temas = this.props.temas.map((tema) =>(
+                <Collapsible trigger={tema}>
+                    <p>Sí. No necesitas tener experiencia previa en programación para entrar a nuestros
+                        programas, ya que varios de ellos están diseñados para principiantes o personas
+                        que no tienen un perfil profesional relacionado a tecnología.</p>
+                </Collapsible>
+
+                )
+
             );
             return (
                 <div>

@@ -29,7 +29,7 @@
 .Collapsible__trigger:after {
     font-family: 'FontAwesome';
     color: #8A3490;
-    content: '\f107';
+    content: '\f105';
     position: absolute;
     right: 10px;
     top: 10px;
@@ -37,7 +37,7 @@
     transition: transform 300ms;
 }
 .Collapsible__trigger.is-open:after {
-    transform: rotateZ(-90deg);
+    transform: rotateZ(90deg);
 }
 .Collapsible__trigger.is-disabled {
     opacity: 0.5;
