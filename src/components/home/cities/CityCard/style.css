@@ -60,6 +60,10 @@
     cursor:pointer;
 }
 
+.cardStyle.active {
+    opacity: 1;
+}
+
 .card-body {
     padding: 0.25px;
 }
