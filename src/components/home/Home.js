@@ -8,7 +8,7 @@ import Carousel from './carousel/Carousel';
 import Testimonials from './testimonials/Testimonials';
 import Companies from './companies/Companies';
 import Footer from './footer/Footer';
-
+import Firebase from '../Firebase';
 
 import jQuery from 'jquery';
 window.jQuery = jQuery;
@@ -24,11 +24,22 @@ class Home  extends  Component {
 
     }
 
+    componentDidMount(){
+        const cities = Firebase.database().ref().child('cities');
+        cities.on('value',content => {
+            let cdmxroma = content.val()['CDMX-ROMA']
+            this.setState({
+                city:'CDMX-ROMA',
+                cityId: cdmxroma.id,
+                cityO: cdmxroma
+            });
+        });
+    }
+
     updateCity(city,cityId,cityO){
         console.log("Ciudad selecionada");
         this.setState({city:city,cityId:cityId,cityO:cityO});
         let id = "#"+cityId;
-        console.log(id);
     }
 
     updateComponentCity(){
@@ -36,7 +47,6 @@ class Home  extends  Component {
             return <div></div>
         }
         else{
-
             return <City city={this.state.city} cityId={this.state.cityId} cityO={this.state.cityO}/>
         }
     }

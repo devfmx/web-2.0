@@ -44,7 +44,10 @@ class CintaCard extends Component{
                                     <p className="cinta-text">{this.props.text}</p>
                                 </div>
                             </div>
-                            <a href="https://pagos.devf.mx" className="btn btn-cinta">Inscríbete</a>
+                            <div className="row justify-content-center text-center">
+                                <a href="https://pagos.devf.mx" className="btn btn-cinta">Inscríbete</a>
+                            </div>
+
                         </div>
                 </div>
 

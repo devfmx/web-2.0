@@ -23,7 +23,7 @@ class HeaderContent  extends  Component {
         var int = setInterval(function() {
             window.scrollTo(0, i);
             i += 25;
-            if (i >= 580) clearInterval(int);
+            if (i >= 780) clearInterval(int);
         }, 20);
 
     }
@@ -63,7 +63,7 @@ class HeaderContent  extends  Component {
 
                 <div className="row row-devf-b justify-content-center">
                     <div className="col-xl-3 col-lg-3 col-md-3 text-center">
-                       <button className="btn btn-devf" onClick={this.handleInterest}>Me interesa</button>
+                       <button className="btn btn-devf" onClick={this.handleInterest}>Ver cursos</button>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-3  text-center">
                         <button className="btn btn-devf-video" onClick={this.handleVideo}> <i className="fa fa-play"></i>&nbsp; Ver Video</button>

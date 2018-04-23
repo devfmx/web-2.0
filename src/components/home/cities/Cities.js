@@ -7,7 +7,7 @@ class Cities extends  Component {
 
     constructor(props){
         super(props);
-        this.state = {cities:[],prueba:"Prueba"}
+        this.state = {cities:[],prueba:"Prueba",div:"cdmx-roma"}
     }
 
     componentDidMount(){
@@ -21,6 +21,10 @@ class Cities extends  Component {
     }
 
 
+    selectedDiv= (id) => {
+        this.setState({div:id})
+    };
+
     render(){
             if(!this.state.cities){
                 console.log(this.state.prueba)
@@ -32,6 +36,8 @@ class Cities extends  Component {
                 <CityCard city={this.state.cities[key].name}
                           changeCity={this.props.changeCity}
                           cityId={i}
+                          div={this.selectedDiv}
+                          selDiv={this.state.div}
                           cityObject={this.state.cities[key]}
                           imagenUrl={this.state.cities[key].img}
                           idDiv={this.state.cities[key].slug}

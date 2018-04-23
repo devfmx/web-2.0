@@ -6,7 +6,7 @@
 
 .cinta-card {
     padding-top: 12px;
-    height: 25.1rem;
+    height: 31.1rem;
 }
 
 .cinta-title {
@@ -34,6 +34,8 @@
     color: #E100A6;
     margin-bottom: 15px;
     text-transform: uppercase;
+    position: absolute;
+    bottom: 7px;
 }
 
 .btn-cinta:hover {
