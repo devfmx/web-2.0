@@ -75,6 +75,7 @@ class App extends Component {
                     <Route exact path="/"
                            component={Home}/>
                     {this.updateRoutes()}
+
                     <Route path="/nosotros" component={People}/>
                     <Route path="/roi" component={ROI}/>
                     <Route path="/metodologia" component={Metodology}/>

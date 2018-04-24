@@ -18,14 +18,14 @@ class Home  extends  Component {
 
     constructor(props){
         super(props);
+        console.log(props.match.params.city)
         jQuery.noConflict(true);
-        console.log(props.city);
         this.updateCity = this.updateCity.bind(this);
         this.state = {city:"none",
             cityId:0,
             cityO:null,
             defecto: props.city || "CDMX-ROMA",
-            prueba:1
+            slug: window.location.pathname.split('/')[1] !== "" ? window.location.pathname.split('/')[1]:"cdmx-roma"
             }
 
     }
@@ -48,13 +48,14 @@ class Home  extends  Component {
 
 
     updateCity(city,cityId,cityO){
+
         console.log("Ciudad selecionada");
         this.setState({city:city,cityId:cityId,cityO:cityO,prueba:3});
-        let id = "#"+cityId;
+        this.props.history.push(`/${cityO.slug}`)
     }
 
     updateComponentCity(){
-        console.log(this.state.city)
+        console.log(this.state.city);
         if(this.state.city === 'none'){
             return <div>{this.state.prueba}</div>
         }
@@ -72,9 +73,8 @@ class Home  extends  Component {
                 <Navbar/>
 
                     <Masthead/>
-                    <Cities changeCity={this.updateCity} ref="cities"/>
+                    <Cities changeCity={this.updateCity} slug={this.state.slug} ref="cities"/>
                     {this.updateComponentCity()}
-
                     <Carousel/>
                     <Testimonials/>
                     <Companies/>

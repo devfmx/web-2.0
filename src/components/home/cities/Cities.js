@@ -7,7 +7,7 @@ class Cities extends  Component {
 
     constructor(props){
         super(props);
-        this.state = {cities:[],prueba:"Prueba",div:"cdmx-roma"}
+        this.state = {cities:[],prueba:"Prueba",div:props.slug}
     }
 
     componentDidMount(){
@@ -26,7 +26,7 @@ class Cities extends  Component {
 
     render(){
             if(!this.state.cities){
-                console.log(this.state.prueba)
+                console.log(this.state.prueba);
                 return null;
             }
 
