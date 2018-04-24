@@ -16,35 +16,47 @@ window.jQuery = jQuery;
 
 class Home  extends  Component {
 
-    constructor(){
-        super()
-        jQuery.noConflict(true)
-        this.updateCity = this.updateCity.bind(this)
-        this.state = {city:"none",cityId:0,cityO:null}
+    constructor(props){
+        super(props);
+        jQuery.noConflict(true);
+        console.log(props.city);
+        this.updateCity = this.updateCity.bind(this);
+        this.state = {city:"none",
+            cityId:0,
+            cityO:null,
+            defecto: props.city || "CDMX-ROMA",
+            prueba:1
+            }
 
     }
+
+
+
 
     componentDidMount(){
         const cities = Firebase.database().ref().child('cities');
         cities.on('value',content => {
-            let cdmxroma = content.val()['CDMX-ROMA']
+            let ciudad = content.val()[this.state.defecto];
             this.setState({
-                city:'CDMX-ROMA',
-                cityId: cdmxroma.id,
-                cityO: cdmxroma
+                city:this.state.defecto,
+                cityId: ciudad.id,
+                cityO: ciudad
             });
         });
     }
 
+
+
     updateCity(city,cityId,cityO){
         console.log("Ciudad selecionada");
-        this.setState({city:city,cityId:cityId,cityO:cityO});
+        this.setState({city:city,cityId:cityId,cityO:cityO,prueba:3});
         let id = "#"+cityId;
     }
 
     updateComponentCity(){
-        if(this.state.city == 'none'){
-            return <div></div>
+        console.log(this.state.city)
+        if(this.state.city === 'none'){
+            return <div>{this.state.prueba}</div>
         }
         else{
             return <City city={this.state.city} cityId={this.state.cityId} cityO={this.state.cityO}/>
@@ -62,6 +74,7 @@ class Home  extends  Component {
                     <Masthead/>
                     <Cities changeCity={this.updateCity} ref="cities"/>
                     {this.updateComponentCity()}
+
                     <Carousel/>
                     <Testimonials/>
                     <Companies/>
