@@ -18,7 +18,6 @@ class Home  extends  Component {
 
     constructor(props){
         super(props);
-        console.log(props.match.params.city)
         jQuery.noConflict(true);
         this.updateCity = this.updateCity.bind(this);
         this.state = {city:"none",
@@ -31,9 +30,25 @@ class Home  extends  Component {
     }
 
 
-
-
     componentDidMount(){
+        Firebase.database()
+            .ref('cities').orderByChild('slug').startAt(this.state.slug).endAt(this.state.slug)
+            .once('value',(snapshot) => {
+                let key = Object.keys(snapshot.val())[0];
+                this.setState({
+                    city:key,
+                    cityId:snapshot.val()[key].slug,
+                    cityO: snapshot.val()[key]
+                });
+
+            })
+
+
+    }
+
+
+
+   /*' componentDidMount(){
         const cities = Firebase.database().ref().child('cities');
         cities.on('value',content => {
             let ciudad = content.val()[this.state.defecto];
@@ -43,7 +58,7 @@ class Home  extends  Component {
                 cityO: ciudad
             });
         });
-    }
+    } */
 
 
 

@@ -53,7 +53,7 @@ class App extends Component {
             return Object.keys(this.state.cities).map((city) => {
 
                 return <Route path={`/${this.state.cities[city].slug}`}
-                              component={() => <Home city={city}/>}/>
+                              component={Home}/>
 
             });
         }
