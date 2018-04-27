@@ -4,10 +4,10 @@
 }
 
 .link-nav{
-    color:#ffffff !important;
-    font-size: 12px;
-    text-transform: uppercase;
-    margin: 0px 17px;
+    color: #ffffff !important;
+    font-size: 15px;
+    text-transform: CAPITALIZE;
+    margin: -2px 3px;
 }
 
 .btn-buy{
