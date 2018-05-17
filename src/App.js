@@ -42,12 +42,14 @@ class App extends Component {
                 <Route path="/cinta/:city/:program" component={Cinta}/>
                 <Route path="/privacidad" component={Privacidad}/>
                 <Route path="/terminos" component={TYC}/>
-                <Route path='/becas2018' component={() => <Becas loc="https://devf.typeform.com/to/LpZqcv"/> } />
+                <Route path='/becas2018' component={() => <Becas loc="https://devf.typeform.com/to/vnXhG8"/> } />
                 <Route path='/calendario' component={() => <Becas loc="https://goo.gl/q66pQu"/> } />
-                <Route path='/slackCDMX' component={() => <Becas loc="https://join.slack.com/t/devfb19cdmx/shared_invite/enQtMzQ0MDM1ODc1ODkzLTQ1MmNlMjU1ZjllZjkyOGZjODkwZTE5MWNkYTUxNzEwYzFkNDYxZGE5NmFhMGNjZDMyM2IwMTVkZTY4MjQ5NjA"/> } />
+                <Route path='/slackCDMX' component={() => <Becas loc="https://join.slack.com/t/devfb20cdmx/shared_invite/enQtMzYzMTQ2ODU4MDMzLTg0ODc2ZGRmMTc0YTFiZjhmNjBjMzIxNWFhNjM4MjlkNzA0MDFmZDU5YmU4MWZhYzY1ZDY4MWEyYWY5M2VhOGI"/> } />
                 <Route path='/slackGDL' component={() => <Becas loc="https://join.slack.com/t/devfb2gdl/shared_invite/enQtMzQzODk5Njc0MjU4LWNhOTBkMzA3MmIyNzMwNmNiMTlhNzA4NDVhYjkzNTJjMGFjNTJkYzY4MjQ3N2JiMjc0Yjg0NmU4ZjMzMDMyM2Y"/> } />
                 <Route path='/feedback' component={() => <Becas loc="https://goo.gl/forms/UWrAR4vQTsBPLQrS2."/> } />
                 <Route path='/mentoria' component={() => <Becas loc="http://bit.ly/2oBI7Js"/> } />
+                <Route path='/registro' component={() => <Becas loc="https://docs.google.com/forms/d/e/1FAIpQLSer00gd4UP8Q4RfSYNqp-ObZ2Ob-AgE-xpNZ-8HCbcePW_k_A/viewform"/> } />
+
 
 
 

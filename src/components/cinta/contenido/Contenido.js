@@ -81,10 +81,10 @@ class Contenido extends Component {
                             <div className="col-md-10 col-lg-10 mt-5 mx-auto" style={{backgroundColor:"#FFF"}}>
                                 <div className="row justify-content-center">
                                     <div className="col-md-10 col-lg-10 pt-5">
-                                        <p className="text-pago">
+                                        { /*<p className="text-pago">
                                             Con la promoción actual sólo pagas ${this.props.precios.precio_month} MXN por mes ya que ofrecemos pagar en hasta en 12 mensualidades
                                             SIN intereses. Puedes pagar
-                                            también de contado ${this.props.precios.precio} MXN.</p>
+                                            también de contado ${this.props.precios.precio} MXN.</p> */ }
                                     </div>
                                     <div className="col-md-10 col-lg-10 text-center pb-5">
                                         <a href="https://pagos.devf.mx/" className="btn btn-buy-cinta"> INSCRÍBETE</a>
