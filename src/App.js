@@ -49,6 +49,8 @@ class App extends Component {
                 <Route path='/feedback' component={() => <Becas loc="https://goo.gl/forms/UWrAR4vQTsBPLQrS2."/> } />
                 <Route path='/mentoria' component={() => <Becas loc="http://bit.ly/2oBI7Js"/> } />
                 <Route path='/registro' component={() => <Becas loc="https://docs.google.com/forms/d/e/1FAIpQLSer00gd4UP8Q4RfSYNqp-ObZ2Ob-AgE-xpNZ-8HCbcePW_k_A/viewform"/> } />
+                <Route path='/ingles' component={() => <Becas loc="https://devf.typeform.com/to/umLpuE"/> } />
+
 
 
 
