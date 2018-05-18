@@ -87,8 +87,8 @@ class Home  extends  Component {
                 <Contact/>
                 <Navbar/>
 
-                    <Masthead/>
-                    <Cities changeCity={this.updateCity} slug={this.state.slug} ref="cities"/>
+                    <Masthead selectCity={this.updateCity}/>
+                { /*<Cities changeCity={this.updateCity} slug={this.state.slug} ref="cities"/> */}
                     {this.updateComponentCity()}
                     <Carousel/>
                     <Testimonials/>

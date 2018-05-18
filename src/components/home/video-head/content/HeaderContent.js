@@ -11,6 +11,7 @@ class HeaderContent  extends  Component {
         super(props);
         this.state = {
             cities:{},
+            city:"",
             modal:false,
         };
 
@@ -31,12 +32,12 @@ class HeaderContent  extends  Component {
 
     }
 
-    handleInterest(e){
+    handleInterest(){
         var i = 10;
         var int = setInterval(function() {
             window.scrollTo(0, i);
             i += 25;
-            if (i >= 780) clearInterval(int);
+            if (i >= 750) clearInterval(int);
         }, 20);
 
     }
@@ -47,6 +48,17 @@ class HeaderContent  extends  Component {
             modal:!this.state.modal
         })
     }
+
+    selectedCity = (city) => {
+
+        console.log(city)
+        let cityO = this.state.cities[city];
+        this.setState({
+            city:city
+        });
+        this.props.selectCity(city,cityO.id,cityO)
+        this.handleInterest();
+    };
 
     modalBackdropClicked(){
         this.setState({
@@ -59,7 +71,8 @@ class HeaderContent  extends  Component {
         const cities  = Object.keys(this.state.cities).map((city) => {
             return (
                 <div className="col-xl-3 col-lg-3 col-md-3 text-center">
-                    <button className="btn btn-devf" onClick={this.handleInterest}>{`Cursos en ${this.state.cities[city].name}`}</button>
+                    <button className={(this.state.city === city ) ? "btn btn-devf selected": "btn btn-devf"}
+                            onClick={(e) => {this.selectedCity(city)}}>{this.state.cities[city].name}</button>
                 </div>
             )
         });
@@ -83,15 +96,17 @@ class HeaderContent  extends  Component {
                 </div>
 
                 <div className="row row-devf-b justify-content-center">
+                    <div className="col-md-10 col-lg-10 text-center">
+                        <h4>CURSOS EN:</h4>
+                    </div>
+                </div>
+
+                <div className="row row-devf-b justify-content-center">
                     {cities}
                 </div>
 
 
-                <Modal visible={this.state.modal} onClickBackdrop={this.modalBackdropClicked} id="modal-video" >
 
-                    <iframe className="video-modal"  src="https://www.youtube.com/embed/ZgewiFcvChw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-                </Modal>
 
 
         </div>
