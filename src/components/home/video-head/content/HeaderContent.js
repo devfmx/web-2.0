@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import "./style.css";
 import scrollToComponent from 'react-scroll-to-component';
 import Modal from 'react-bootstrap4-modal';
-
+import Firebase  from '../../../Firebase';
 
 
 class HeaderContent  extends  Component {
@@ -10,12 +10,25 @@ class HeaderContent  extends  Component {
     constructor(props){
         super(props);
         this.state = {
+            cities:{},
             modal:false,
         };
 
         this.handleInterest = this.handleInterest.bind(this);
         this.handleVideo = this.handleVideo.bind(this);
         this.modalBackdropClicked = this.modalBackdropClicked.bind(this);
+    }
+
+    componentDidMount(){
+        const cities = Firebase.database().ref().child('cities');
+            cities.on('value',content => {
+                console.log(content.val())
+                this.setState({
+                    cities: content.val(),
+                });
+            });
+
+
     }
 
     handleInterest(e){
@@ -42,6 +55,14 @@ class HeaderContent  extends  Component {
     }
     
     render () {
+
+        const cities  = Object.keys(this.state.cities).map((city) => {
+            return (
+                <div className="col-xl-3 col-lg-3 col-md-3 text-center">
+                    <button className="btn btn-devf" onClick={this.handleInterest}>{`Cursos en ${this.state.cities[city].name}`}</button>
+                </div>
+            )
+        });
        
         return(
             <div id="content-head">
@@ -62,12 +83,7 @@ class HeaderContent  extends  Component {
                 </div>
 
                 <div className="row row-devf-b justify-content-center">
-                    <div className="col-xl-3 col-lg-3 col-md-3 text-center">
-                       <button className="btn btn-devf" onClick={this.handleInterest}>Ver cursos</button>
-                    </div>
-                    <div className="col-xl-3 col-lg-3 col-md-3  text-center">
-                        <button className="btn btn-devf-video" onClick={this.handleVideo}> <i className="fa fa-play"></i>&nbsp; Ver Video</button>
-                    </div>
+                    {cities}
                 </div>
 
 
