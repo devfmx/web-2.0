@@ -68,7 +68,7 @@ class Contenido extends Component {
                                             Duración: 5 semanas | Inicia {this.props.precios.start} | Horario:
                                             { (this.props.program === "4") ? " Lunes y Miércoles " : (this.props.program === "5") ? " Martes y Jueves " :
                                                 (this.props.program === "6" && this.props.city === "mxroma") ? " Lunes y Miercoles " :
-                                                    (this.props.program === "6" && this.props.city === "mxsanta") ?" Martes y Jueves " : " Lunes y Viernes "}
+                                                    (this.props.program === "6" && this.props.city === "mxsanta") ?" Martes y Jueves " : " Lunes a Viernes "}
                                             de {
                                             (this.props.city === "mxsanta") ? "18:00 a 21:00 hrs." : "19:00 a 22:00 hrs."
                                         }
@@ -81,10 +81,10 @@ class Contenido extends Component {
                             <div className="col-md-10 col-lg-10 mt-5 mx-auto" style={{backgroundColor:"#FFF"}}>
                                 <div className="row justify-content-center">
                                     <div className="col-md-10 col-lg-10 pt-5">
-                                        <p className="text-pago">
+                                        { /*<p className="text-pago">
                                             Con la promoción actual sólo pagas ${this.props.precios.precio_month} MXN por mes ya que ofrecemos pagar en hasta en 12 mensualidades
                                             SIN intereses. Puedes pagar
-                                            también de contado ${this.props.precios.precio} MXN.</p>
+                                            también de contado ${this.props.precios.precio} MXN.</p> */ }
                                     </div>
                                     <div className="col-md-10 col-lg-10 text-center pb-5">
                                         <a href="https://pagos.devf.mx/" className="btn btn-buy-cinta"> INSCRÍBETE</a>
