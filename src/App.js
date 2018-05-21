@@ -71,7 +71,6 @@ class App extends Component {
      
           <Router>
             <main>
-                <Switch>
                     <Route exact path="/"
                            component={Home}/>
                     {this.updateRoutes()}
@@ -91,7 +90,6 @@ class App extends Component {
                     <Route path='/slackGDL' component={() => <Becas loc="https://join.slack.com/t/devfb2gdl/shared_invite/enQtMzQzODk5Njc0MjU4LWNhOTBkMzA3MmIyNzMwNmNiMTlhNzA4NDVhYjkzNTJjMGFjNTJkYzY4MjQ3N2JiMjc0Yjg0NmU4ZjMzMDMyM2Y"/> } />
                     <Route path='/feedback' component={() => <Becas loc="https://goo.gl/forms/UWrAR4vQTsBPLQrS2."/> } />
                     <Route path='/mentoria' component={() => <Becas loc="http://bit.ly/2oBI7Js"/> } />
-                </Switch>
             </main>
           </Router>
   
