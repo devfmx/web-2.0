@@ -11,7 +11,7 @@ class HeaderContent  extends  Component {
         super(props);
         this.state = {
             cities:{},
-            city:"",
+            city:window.location.href.split("/")[3],
             modal:false,
         };
 
@@ -54,10 +54,10 @@ class HeaderContent  extends  Component {
         console.log(city)
         let cityO = this.state.cities[city];
         this.setState({
-            city:city
+            city:cityO.slug
         });
         this.props.selectCity(city,cityO.id,cityO)
-        this.handleInterest();
+        this.handleInterest()
     };
 
     modalBackdropClicked(){
@@ -71,7 +71,7 @@ class HeaderContent  extends  Component {
         const cities  = Object.keys(this.state.cities).map((city) => {
             return (
                 <div className="col-xl-3 col-lg-3 col-md-3 text-center">
-                    <button className={(this.state.city === city ) ? "btn btn-devf selected": "btn btn-devf"}
+                    <button className={(this.state.city === this.state.cities[city].slug ) ? "btn btn-devf selected": "btn btn-devf"}
                             onClick={(e) => {this.selectedCity(city)}}>{this.state.cities[city].name}</button>
                 </div>
             )

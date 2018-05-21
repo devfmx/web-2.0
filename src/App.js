@@ -52,7 +52,7 @@ class App extends Component {
         }else {
             return Object.keys(this.state.cities).map((city) => {
 
-                return <Route path={`/${this.state.cities[city].slug}`}
+                return <Route exact path={`/${this.state.cities[city].slug}`}
                               component={Home}/>
 
             });
@@ -82,7 +82,7 @@ class App extends Component {
                     <Route path="/comunidad" component={Community}/>
                     <Route path="/faq" component={FAQ}/>
                     <Route path="/empresas" component={Corporative}/>
-                    <Route path="/cinta/:city/:program" component={Cinta}/>
+                    <Route path="/:city/:program" component={Cinta}/>
                     <Route path="/privacidad" component={Privacidad}/>
                     <Route path="/terminos" component={TYC}/>
                     <Route path='/becas2018' component={() => <Becas loc="https://devf.typeform.com/to/LpZqcv"/> } />

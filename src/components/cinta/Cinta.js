@@ -23,7 +23,7 @@ class Cinta extends Component {
 
 
     componentDidMount(){
-        const cinta = Firebase.database().ref().child('programas').child(this.props.match.params.program);
+        const cinta = Firebase.database().ref().child('cintas').child(this.props.match.params.program);
         cinta.on('value',content => {
             console.log(content.val())
             this.setState({cinta:content.val()})
