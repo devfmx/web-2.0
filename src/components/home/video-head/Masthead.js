@@ -16,7 +16,7 @@ class Masthead  extends  Component {
                         <video autoPlay loop id="video-background" muted plays-inline>
                             <source src={video} type="video/mp4"/>
                         </video>
-                        <Content/>
+                        <Content selectCity={this.props.selectCity}/>
                     </div>
             </header>
         );

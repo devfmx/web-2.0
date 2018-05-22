@@ -37,7 +37,6 @@ class Carousel extends Component{
             }
         }
 
-        console.log(images)
         let allImages = Object.keys(images).map((value) =>
             <div className="item"><div className="overlay-carousel">
             </div><img src={images[value]} className="images-carousel" alt=""/></div>

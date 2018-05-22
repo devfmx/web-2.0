@@ -7,13 +7,12 @@ class Cities extends  Component {
 
     constructor(props){
         super(props);
-        this.state = {cities:[],prueba:"Prueba",div:"cdmx-roma"}
+        this.state = {cities:[],prueba:"Prueba",div:props.slug}
     }
 
     componentDidMount(){
         const cities = Firebase.database().ref().child('cities');
         cities.on('value',content => {
-            console.log(content.val())
             this.setState({
                 cities: content.val(),
             });
@@ -27,7 +26,7 @@ class Cities extends  Component {
 
     render(){
             if(!this.state.cities){
-                console.log(this.state.prueba)
+                console.log(this.state.prueba);
                 return null;
             }
 
@@ -35,7 +34,7 @@ class Cities extends  Component {
 
                 <CityCard city={this.state.cities[key].name}
                           changeCity={this.props.changeCity}
-                          cityId={i}
+                          cityId={this.state.cities[key].id}
                           div={this.selectedDiv}
                           selDiv={this.state.div}
                           cityObject={this.state.cities[key]}
@@ -44,7 +43,6 @@ class Cities extends  Component {
                 />
             );
 
-            console.log(cities)
 
 
 

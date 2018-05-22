@@ -9,7 +9,7 @@ class CityCard extends  Component {
 
 
     constructor(props){
-        super(props)
+        super(props);
         this.state = {isHovered:true,div:false};
         this.onSelect = this.onSelect.bind(this);
         this.onHovered = this.onHovered.bind(this);
@@ -43,6 +43,7 @@ class CityCard extends  Component {
     }
 
     onSelect = (id) =>{
+
         this.props.div(id);
         this.props.changeCity(this.props.city,this.props.cityId,this.props.cityObject);
 

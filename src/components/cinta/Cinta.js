@@ -21,9 +21,12 @@ class Cinta extends Component {
         this.state = {cinta:"",precios:""}
     }
 
+    componentWillMount(){
+        window.scrollTo(0,0);
+    }
 
-    componentDidMount(){
-        const cinta = Firebase.database().ref().child('programas').child(this.props.match.params.program);
+    componentDidMount(prevProps){
+        const cinta = Firebase.database().ref().child('cintas').child(this.props.match.params.program);
         cinta.on('value',content => {
             console.log(content.val())
             this.setState({cinta:content.val()})
@@ -34,6 +37,8 @@ class Cinta extends Component {
             console.log(content.val())
             this.setState({precios:content.val()})
         });
+
+
 
     }
 

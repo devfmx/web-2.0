@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import "./style.css";
 import scrollToComponent from 'react-scroll-to-component';
 import Modal from 'react-bootstrap4-modal';
-
+import Firebase  from '../../../Firebase';
 
 
 class HeaderContent  extends  Component {
@@ -10,6 +10,8 @@ class HeaderContent  extends  Component {
     constructor(props){
         super(props);
         this.state = {
+            cities:{},
+            city:window.location.href.split("/")[3],
             modal:false,
         };
 
@@ -18,12 +20,24 @@ class HeaderContent  extends  Component {
         this.modalBackdropClicked = this.modalBackdropClicked.bind(this);
     }
 
-    handleInterest(e){
+    componentDidMount(){
+        const cities = Firebase.database().ref().child('cities');
+            cities.on('value',content => {
+                console.log(content.val())
+                this.setState({
+                    cities: content.val(),
+                });
+            });
+
+
+    }
+
+    handleInterest(){
         var i = 10;
         var int = setInterval(function() {
             window.scrollTo(0, i);
             i += 25;
-            if (i >= 780) clearInterval(int);
+            if (i >= 750) clearInterval(int);
         }, 20);
 
     }
@@ -35,6 +49,17 @@ class HeaderContent  extends  Component {
         })
     }
 
+    selectedCity = (city) => {
+
+        console.log(city)
+        let cityO = this.state.cities[city];
+        this.setState({
+            city:cityO.slug
+        });
+        this.props.selectCity(city,cityO.id,cityO)
+        this.handleInterest()
+    };
+
     modalBackdropClicked(){
         this.setState({
             modal:!this.state.modal
@@ -42,6 +67,15 @@ class HeaderContent  extends  Component {
     }
     
     render () {
+
+        const cities  = Object.keys(this.state.cities).map((city) => {
+            return (
+                <div className="col-xl-3 col-lg-3 col-md-3 text-center">
+                    <button className={(this.state.city === this.state.cities[city].slug ) ? "btn btn-devf selected": "btn btn-devf"}
+                            onClick={(e) => {this.selectedCity(city)}}>{this.state.cities[city].name}</button>
+                </div>
+            )
+        });
        
         return(
             <div id="content-head">
@@ -62,20 +96,17 @@ class HeaderContent  extends  Component {
                 </div>
 
                 <div className="row row-devf-b justify-content-center">
-                    <div className="col-xl-3 col-lg-3 col-md-3 text-center">
-                       <button className="btn btn-devf" onClick={this.handleInterest}>Ver cursos</button>
-                    </div>
-                    <div className="col-xl-3 col-lg-3 col-md-3  text-center">
-                        <button className="btn btn-devf-video" onClick={this.handleVideo}> <i className="fa fa-play"></i>&nbsp; Ver Video</button>
+                    <div className="col-md-10 col-lg-10 text-center">
+                        <h4>CURSOS EN:</h4>
                     </div>
                 </div>
 
+                <div className="row row-devf-b justify-content-center">
+                    {cities}
+                </div>
 
-                <Modal visible={this.state.modal} onClickBackdrop={this.modalBackdropClicked} id="modal-video" >
 
-                    <iframe className="video-modal"  src="https://www.youtube.com/embed/ZgewiFcvChw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-                </Modal>
 
 
         </div>
