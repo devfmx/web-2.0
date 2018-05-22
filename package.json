@@ -36,6 +36,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build && netlify deploy",
     "test": "react-scripts test --env=jsdom",
+    "prep": "node scripts/prerender.js",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },

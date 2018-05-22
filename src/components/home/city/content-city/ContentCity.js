@@ -53,7 +53,7 @@ class ContentCity extends  Component{
                                  value={parseInt(parseInt(this.props.city.price)/12)} displayType={'text'}
                                  thousandSeparator={true} prefix={'$'} />
 
-                         </span>&nbsp;pagando a 12 meses sin intereses con promoción Early Bird.</p>
+                         </span>&nbsp;pagando a 12 meses sin intereses.</p>
                      </div>
                 </div>
                 <div className="row justify-content-center">
