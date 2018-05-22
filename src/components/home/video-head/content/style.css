@@ -16,7 +16,7 @@
 
 .btn-devf{
     background-color: #E100A6;
-    font-size: 18px;
+    font-size: 15px;
     border: solid #E100A6;
     text-transform: uppercase;
     color:#ffffff !important;
@@ -50,7 +50,13 @@
     border-radius: 5px;
 }
 .btn-devf:hover,.btn-devf-video:hover{
-    background-color: transparent;
+    background-color: #FFFFFF;
+    color:  #E100A6!important;
+}
+
+.btn-devf.selected{
+    background-color: #FFFFFF;
+    color:  #E100A6!important;
 }
 
 @media (max-width: 500px) {

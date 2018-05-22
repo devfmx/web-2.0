@@ -17,8 +17,8 @@ class ContentCity extends  Component{
             .map((value,i) =>
             <div className="col-md-4 col-lg-4 col-cinta">
                 <CardCinta
-                    cinta={this.props.city.cintas[value].key}
-                    cityID={this.props.city.id}
+                    cinta={this.props.city.cintas[value].slug}
+                    cityID={this.props.city.slug}
                     key={this.props.city.cintas[value].key}
                     img={this.props.city.cintas[value].img}
                     level={this.props.city.cintas[value].level}
