@@ -12,7 +12,7 @@ import Privacidad from './components/privacidad/Privacidad';
 import TYC from './components/tyc/TYC';
 import Becas from './components/Becas';
 import Firebase from './components/Firebase';
-
+import 'babel-polyfill'
 
 
 import {

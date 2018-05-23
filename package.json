@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "animate.css": "^3.5.2",
+    "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.0.0",
     "et-line": "^1.0.1",
     "firebase": "^4.9.1",
