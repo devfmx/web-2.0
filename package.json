@@ -30,16 +30,17 @@
     "react-router-scroll-4": "^1.0.0-beta.1",
     "react-scripts": "1.1.0",
     "react-scroll-to-component": "^1.0.2",
+    "react-snapshot": "^1.3.0",
     "smoothscroll": "^0.4.0",
     "wowjs": "^1.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && netlify deploy",
+    "build": "react-scripts build && react-snapshot",
     "test": "react-scripts test --env=jsdom",
     "prep": "node scripts/prerender.js",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "netlify deploy"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0"

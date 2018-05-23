@@ -7,9 +7,16 @@ import jQuery from 'jquery';
 import 'bootstrap';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import { render } from 'react-snapshot';
+
+
 
 const $ = jQuery
 window.Jquery = window.$ = $;
 
-ReactDOM.render(<App />, document.getElementById('root'));
+render(
+    <App/>,
+    document.getElementById('root')
+);
+
 registerServiceWorker();
