@@ -23,8 +23,8 @@ class Home  extends  Component {
         this.state = {city:"none",
             cityId:0,
             cityO:null,
-            defecto: props.city || "CDMX-ROMA",
-            slug: window.location.pathname.split('/')[1] !== "" ? window.location.pathname.split('/')[1]:"cdmx-roma"
+            defecto: props.city || "cdmx",
+            slug: window.location.pathname.split('/')[1] !== "" ? window.location.pathname.split('/')[1]:"cdmx"
             }
 
     }

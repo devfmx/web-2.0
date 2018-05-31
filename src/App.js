@@ -86,8 +86,9 @@ class App extends Component {
                     <Route path='/becas2018' component={() => <Becas loc="https://devf.typeform.com/to/LpZqcv"/> } />
                     <Route path='/calendario' component={() => <Becas loc="https://goo.gl/q66pQu"/> } />
                     <Route path='/slackCDMX' component={() => <Becas loc="https://join.slack.com/t/devfb20cdmx/shared_invite/enQtMzYzMTQ2ODU4MDMzLTg0ODc2ZGRmMTc0YTFiZjhmNjBjMzIxNWFhNjM4MjlkNzA0MDFmZDU5YmU4MWZhYzY1ZDY4MWEyYWY5M2VhOGI"/> } />
-                    <Route path='/slackGDL' component={() => <Becas loc="https://join.slack.com/t/devfb2gdl/shared_invite/enQtMzQzODk5Njc0MjU4LWNhOTBkMzA3MmIyNzMwNmNiMTlhNzA4NDVhYjkzNTJjMGFjNTJkYzY4MjQ3N2JiMjc0Yjg0NmU4ZjMzMDMyM2Y"/> } />
-                    <Route path='/feedback' component={() => <Becas loc="https://goo.gl/forms/UWrAR4vQTsBPLQrS2."/> } />
+                    <Route path='/slackGDL' component={() => <Becas loc="https://join.slack.com/t/devfb3gdl/shared_invite/enQtMzcyNDExMzk3MzM0LTY4NTA1Mjk4MGIyZWY1N2VlYTY2ZmNlODY5ZjRmYTdlMWI3NmUxMTcyZWM4NmYzMmY5ZDRhYjY2YmFhZmJkMGE"/> } />
+                    <Route path='/slackHMO' component={() => <Becas loc="https://join.slack.com/t/devfb0hmo/shared_invite/enQtMzcxNDE3Njg1MTIzLTQwNGQ2YjhiZjljNTU5ZWQyY2JkZGM0YzU1YzkyMDZhOTQ0OTc3MmVmNTlkYzQxMWYzMzNjMjc2OWZiM2Y1ZGY"/> } />
+                     <Route path='/feedback' component={() => <Becas loc="https://goo.gl/forms/UWrAR4vQTsBPLQrS2."/> } />
                     <Route path='/mentoria' component={() => <Becas loc="http://bit.ly/2oBI7Js"/> } />
                     <Route path='/ingles' component={() => <Becas loc="https://devf.typeform.com/to/umLpuE"/> } />
 
